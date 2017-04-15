@@ -1,3 +1,3 @@
-# Nightfall
+# Nightfall Survival
 
-The source files for the NightfallMC Minecraft server
+The source files for the NightfallMC Survival Minecraft server
