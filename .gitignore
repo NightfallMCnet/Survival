@@ -4,3 +4,4 @@ world_nether/
 world_the_end/
 *.json
 spigot.jar
+plugins/*.jar
