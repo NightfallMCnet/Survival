@@ -1,0 +1,34 @@
+useUUIDs: true
+useregexperms: false
+grouppermission: true
+backendtype: YAML
+uuidplayerdb: YAML
+tablePrefix: bungeeperms_
+uuidfetcher:
+  cooldown: 3000
+saveAllUsers: true
+deleteUsersOnCleanup: false
+notify:
+  promote: true
+  demote: true
+tabcomplete: true
+locale: en-GB
+terminate:
+  prefix:
+    reset: true
+    space: true
+  suffix:
+    reset: true
+    space: true
+cleanup:
+  interval: 1800
+  threshold: 600
+async-commands: true
+servername: Survival
+allowops: false
+superpermscompat: false
+standalone: false
+debug:
+  path: C:\New Nightfall\Survival\plugins\BungeePerms/debug.log
+  showexceptions: true
+  showlogs: false

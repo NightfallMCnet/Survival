@@ -5,5 +5,7 @@ world_the_end/
 *.json
 spigot.jar
 plugins/*.jar
+plugins/BungeePerms/debug.log
+plugins/BungeePerms/uuidplayerdb.yml
 plugins/Essentials/warps/
 plugins/Essentials/items.csv

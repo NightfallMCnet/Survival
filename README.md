@@ -3,6 +3,10 @@
 The source files for the NightfallMC Survival Minecraft server
 
 ##Plugins
+* BungeePerms
+  * [Link](https://www.spigotmc.org/resources/bungeeperms.25/)
+  * Handles permissions; linked with BungeeCord server's BungeePerms plugin
+
 * EssentialsX/EssentialsXSpawn
   * [Link](https://www.spigotmc.org/resources/essentialsx.9089/)
   * Handles AFK, economy, homes, warps, and spawning
