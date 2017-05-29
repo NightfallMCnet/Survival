@@ -11,3 +11,4 @@ plugins/Chairs/sit-disabled.txt
 plugins/Essentials/warps/
 plugins/Essentials/items.csv
 plugins/LogBlock/materials.yml
+plugins/OpenInv/config_old.yml
