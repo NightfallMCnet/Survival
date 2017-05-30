@@ -1,0 +1,11 @@
+# Adminium v3 config. Do not edit unless you know what you are doing
+
+
+devices: {}
+notificationDefaults:
+  taboo: false
+  severe: true
+  player_join: false
+  calladmin: true
+  player_quit: false
+taboo: {}

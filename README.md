@@ -17,11 +17,15 @@ The source files for the NightfallMC Survival Minecraft server
 
 * EntityLWC
   * [Link](https://www.spigotmc.org/resources/lwc-unofficial-entity-locking.2162/)
-  * Allows players to lock chests, doors, armor stands, etc to prevent players from destroying or stealing their items
+  * Allows players to lock chests, doors, armor stands, and other blocks and entities to prevent players from destroying or stealing their items
 
 * EssentialsX/EssentialsXSpawn
   * [Link](https://www.spigotmc.org/resources/essentialsx.9089/)
   * Handles AFK, economy, homes, warps, and spawning
+
+* JSONAPI
+  * [Link](http://mcjsonapi.com/)
+  * Allows staff to manage the server through the Adminium iOS application
 
 * LogBlock
   * [Link](https://dev.bukkit.org/projects/logblock)
