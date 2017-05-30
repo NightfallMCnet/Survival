@@ -35,6 +35,10 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://www.spigotmc.org/resources/protocollib.1997/)
   * A library that a few other plugins are dependent on
 
+* RemoteController
+  * [Link](https://dev.bukkit.org/projects/bukkit-remote-controller)
+  * Allows staff to manage the server through the RemoteController Android application
+
 * SilkSpawners
   * [Link](https://www.spigotmc.org/resources/silkspawners.7811/)
   * Allows spawners to be mined with pickaxes enchanted with silk touch, as well as enable staff to change spawner types

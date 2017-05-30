@@ -14,4 +14,5 @@ plugins/Essentials/items.csv
 plugins/LogBlock/materials.yml
 plugins/OpenInv/config_old.yml
 plugins/ProtocolLib/lastupdate
+plugins/RemoteController/users.dat
 plugins/TrailGUI/Userdata.yml

@@ -1,0 +1,18 @@
+ReloadedSetting: '&6Reloaded successfully.'
+ErrorReloadSetting: '&cError has occurred on re-loading config.'
+ChatPrefix: '&d[Remote]&r<%1$s>'
+Username: Username
+Password: Password
+UsageUserAdd: Add the user.
+UsageUserRemove: Delete the user.
+UsageUserList: Show users list.
+UsageReloadSetting: Reload configuration.
+UserNotFound: '&cUser not found.'
+UserAlreadyExist: '&cUser already exists.'
+UserAddSuccess: '&aAdded the user.'
+UserRemoveSuccess: '&aDeleted the user.'
+UsageSummon: '&6Send request to summon admin.'
+Message: Message
+SendedSummonRequest: |-
+  &aSended the request to admin.
+  It may takes some minutes admin to check.
