@@ -15,6 +15,10 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://dev.bukkit.org/projects/chairsreloaded)
   * Allows players to sit on stairs as if they were chairs (for donators only)
 
+* EntityLWC
+  * [Link](https://www.spigotmc.org/resources/lwc-unofficial-entity-locking.2162/)
+  * Allows players to lock chests, doors, armor stands, etc to prevent players from destroying or stealing their items
+
 * EssentialsX/EssentialsXSpawn
   * [Link](https://www.spigotmc.org/resources/essentialsx.9089/)
   * Handles AFK, economy, homes, warps, and spawning

@@ -12,6 +12,7 @@ plugins/Chairs/sit-disabled.txt
 plugins/Essentials/warps/
 plugins/Essentials/items.csv
 plugins/LogBlock/materials.yml
+plugins/LWC/backups/
 plugins/OpenInv/config_old.yml
 plugins/ProtocolLib/lastupdate
 plugins/RemoteController/users.dat

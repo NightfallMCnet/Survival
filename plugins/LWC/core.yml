@@ -1,0 +1,174 @@
+core:
+    locale: en
+    flushInterval: 10
+    cacheSize: 10000
+    precache: -1
+    showNotices: true
+    showMyNotices: false
+    opIsLWCAdmin: true
+    disableHistory: false
+    townyBorders: false
+    groupPrefix: group.
+    updateNotifier: true
+optional:
+    onlyProtectWhenOwnerIsOnline: false
+    onlyProtectWhenOwnerIsOffline: false
+    exemptBlocks: []
+    optOut: false
+    blacklistedBlocks:
+    - '166'
+    - '154'
+    blacklistedPlayers:
+    - plr
+    useProtectionLimits: true
+database:
+    adapter: sqlite
+    path: plugins/LWC/lwc.db
+    host: localhost
+    database: lwc
+    username: ''
+    password: ''
+    prefix: lwc_
+    ping_interval: 300
+protections:
+    denyRedstone: false
+    denyHoppers: true
+    autoRegister: false
+    ignoreBlockDestruction: false
+    ignoreLeftClick: false
+    ignoreRightClick: false
+    ignoreExplosions: false
+    allowEntityBreakDoor: false
+    allowEntityInteract: false
+    quiet: false
+    readonly-modify: false
+    readonly-remove: false
+    blocks:
+        chest:
+            enabled: true
+            autoRegister: private
+        furnace:
+            enabled: true
+            autoRegister: private
+        dispenser:
+            enabled: true
+            autoRegister: private
+        sign:
+            enabled: true
+            autoRegister: private
+        wooden_door:
+            enabled: true
+        iron_door:
+            enabled: true
+        spruce_door:
+            enabled: true
+        birch_door:
+            enabled: true
+        jungle_door:
+            enabled: true
+        acacia_door:
+            enabled: true
+        dark_oak_door:
+            enabled: true
+        trap_door:
+            enabled: true
+        iron_trapdoor:
+            enabled: true
+        fence_gate:
+            enabled: true
+        spruce_fence_gate:
+            enabled: true
+        birch_fence_gate:
+            enabled: true
+        jungle_fence_gate:
+            enabled: true
+        acacia_fence_gate:
+            enabled: true
+        dark_oak_fence_gate:
+            enabled: true
+        armor_stand:
+            enabled: true
+        trapped_chest:
+            autoRegister: private
+            enabled: true
+        painting:
+            autoRegister: private
+            enabled: true
+        item_frame:
+            autoRegister: private
+            enabled: true
+        hopper_minecart:
+            autoRegister: private
+            enabled: true
+        banner:
+            autoRegister: private
+            enabled: true
+        chest_minecart:
+            autoRegister: private
+            enabled: true
+        white_shulker_box:
+            autoRegister: private
+            enabled: true
+        orange_shulker_box:
+            autoRegister: private
+            enabled: true
+        magenta_shulker_box:
+            autoRegister: private
+            enabled: true
+        light_blue_shulker_box:
+            autoRegister: private
+            enabled: true
+        yellow_shulker_box:
+            autoRegister: private
+            enabled: true
+        lime_shulker_box:
+            autoRegister: private
+            enabled: true
+        pink_shulker_box:
+            autoRegister: private
+            enabled: true
+        gray_shulker_box:
+            autoRegister: private
+            enabled: true
+        light_gray_shulker_box:
+            autoRegister: private
+            enabled: true
+        cyan_shulker_box:
+            autoRegister: private
+            enabled: true
+        purple_shulker_box:
+            autoRegister: private
+            enabled: true
+        blue_shulker_box:
+            autoRegister: private
+            enabled: true
+        brown_shulker_box:
+            autoRegister: private
+            enabled: true
+        green_shulker_box:
+            autoRegister: private
+            enabled: true
+        red_shulker_box:
+            autoRegister: private
+            enabled: true
+        black_shulker_box:
+            autoRegister: private
+            enabled: true
+        dispenser:
+            enabled: true
+        dropper:
+            enabled: true
+        hopper:
+            enabled: true
+        skull:
+            enabled: true
+        mob_spawner:
+            enabled: true
+            autoRegister: true
+
+modes:
+    droptransfer:
+        enabled: true
+        crossWorld: false
+    persist:
+        enabled: true
