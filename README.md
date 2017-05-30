@@ -7,6 +7,10 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://www.spigotmc.org/resources/bungeeperms.25/)
   * Handles permissions; linked with BungeeCord server's BungeePerms plugin
 
+* BuycraftX
+  * [Link](https://www.spigotmc.org/resources/buycraft.336/)
+  * Handles distribution of donator perks through the Buycraft site
+
 * Chairs
   * [Link](https://dev.bukkit.org/projects/chairsreloaded)
   * Allows players to sit on stairs as if they were chairs (for donators only)
