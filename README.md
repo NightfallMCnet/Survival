@@ -46,3 +46,7 @@ The source files for the NightfallMC Survival Minecraft server
 * TrailGUI
   * [Link](https://www.spigotmc.org/resources/trailgui.1091/)
   * Allows players to have particles trail behind them (for donators only)
+
+* Vault
+  * [Link](https://dev.bukkit.org/projects/vault)
+  * Permissions and Economy API required by a few plugins that allows other plugins to easily connect to other plugins
