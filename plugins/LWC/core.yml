@@ -53,6 +53,15 @@ protections:
         dispenser:
             enabled: true
             autoRegister: private
+        dropper:
+            enabled: true
+            autoRegister: private
+        hopper:
+            enabled: true
+            autoRegister: private
+        brewing_stand:
+            enabled: true
+            autoRegister: private
         sign:
             enabled: true
             autoRegister: private
@@ -154,17 +163,11 @@ protections:
         black_shulker_box:
             autoRegister: private
             enabled: true
-        dispenser:
-            enabled: true
-        dropper:
-            enabled: true
-        hopper:
-            enabled: true
         skull:
             enabled: true
         mob_spawner:
             enabled: true
-            autoRegister: true
+            autoRegister: private
 
 modes:
     droptransfer:
