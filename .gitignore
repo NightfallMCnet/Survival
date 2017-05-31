@@ -14,6 +14,8 @@ plugins/Essentials/items.csv
 plugins/JSONAPI/users.yml
 plugins/LogBlock/materials.yml
 plugins/LWC/backups/
+plugins/mcMMO/backup/
+plugins/mcMMO/flatfile/
 plugins/OpenInv/config_old.yml
 plugins/ProtocolLib/lastupdate
 plugins/RemoteController/users.dat

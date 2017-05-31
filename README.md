@@ -31,6 +31,14 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://dev.bukkit.org/projects/logblock)
   * Tracks block placement and destruction, as well as sign and chest access information
 
+* mcMMO
+  * [Link](https://www.spigotmc.org/resources/mcmmo.2445/)
+  * Adds RPG leveling system to most player tasks, granting players perks for leveling up certain skills
+
+* mcMMOAction
+  * [Link](https://www.spigotmc.org/resources/mcmmoaction.17261/)
+  * mcMMO addon that shows player notifications in the action bar
+
 * OldPvP
   * [Link](https://www.spigotmc.org/resources/1-8-pvp-for-1-9-1-10-and-1-11.19291/)
   * Reverts combat to the style prior to the 1.9 update
