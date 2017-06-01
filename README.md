@@ -15,6 +15,10 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://dev.bukkit.org/projects/chairsreloaded)
   * Allows players to sit on stairs as if they were chairs (for donators only)
 
+* Dynmap
+  * [Link](https://www.spigotmc.org/resources/dynmap.274/)
+  * Creates server map accessible via a web page
+
 * EntityLWC
   * [Link](https://www.spigotmc.org/resources/lwc-unofficial-entity-locking.2162/)
   * Allows players to lock chests, doors, armor stands, and other blocks and entities to prevent players from destroying or stealing their items
