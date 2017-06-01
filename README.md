@@ -27,6 +27,10 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](http://mcjsonapi.com/)
   * Allows staff to manage the server through the Adminium iOS application
 
+* LibsDisguises
+  * [Link](https://www.spigotmc.org/resources/libs-disguises.81/)
+  * Disguise plugin for donator ranks
+
 * LogBlock
   * [Link](https://dev.bukkit.org/projects/logblock)
   * Tracks block placement and destruction, as well as sign and chest access information
