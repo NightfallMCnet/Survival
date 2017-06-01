@@ -1,0 +1,66 @@
+PlayerPetNaming: true
+Needs-Permission: true
+Remove-Item-If-No-Permission: true
+RemovePetsOnWorldChange: true
+UseVaultEconomy: false
+ShowParticles: true
+Complete-Mobspawning-Deny-Bypass: true
+Use&k: false
+ColorCodes: true
+AllowPetFlight: true
+PetItemStorage:
+  Enable: false
+OldPetRegistering: false
+AvailableSlots:
+- '11'
+- '12'
+- '13'
+- '14'
+- '15'
+- '16'
+- '17'
+- '20'
+- '21'
+- '22'
+- '23'
+- '24'
+- '25'
+- '26'
+- '29'
+- '30'
+- '31'
+- '32'
+- '33'
+- '34'
+- '35'
+- '38'
+- '39'
+- '40'
+- '41'
+- '42'
+- '43'
+- '44'
+PetDataMenu-Enabled: true
+Allow-Pets-Being-Mounts: true
+Worlds:
+  Enabled: false
+  Allowed-Worlds:
+  - world
+Allow-Pets-Being-Hats: true
+WorldGuard:
+  Spawning:
+    Always-Allowed: true
+    Allowed-Regions:
+    - spawn
+  Pet-Entering:
+    Always-Allowed: true
+    Allowed-Regions:
+    - spawn
+MySQL:
+  Enabled: true
+  Host: host
+  Port: '3306'
+  DatabaseName: insert_DatabaseName
+  Login:
+    Username: username
+    Password: password

@@ -1,0 +1,28 @@
+No-Permission: '&eSimplePets &6>> &cYou do not have permission.'
+Reload-Complete: '&eSimplePets &6>> &7Inventory and Files have been reloaded.'
+Unknown-commands: '&eSimplePets &6>> &7Unknown SimplePets commands.'
+Player-Not-Found: '&eSimplePets &6>> &7%player% is not valid.'
+Pet-Remove-Self-Removed: '&eSimplePets &6>> &7Your pet was removed.'
+Pet-Remove-Self-No-Pet: '&eSimplePets &6>> &7You do not have a pet to remove.'
+Pet-Remove-Other-Remover: '&eSimplePets &6>> &7%player%''s pet was successfully removed.'
+Pet-Remove-Other-Target: '&eSimplePets &6>> &7%player% removed your pet.'
+Pet-Remove-Other-No-Pet: '&eSimplePets &6>> &7%player% does not have a pet to remove.'
+Invalid-PetType: '&eSimplePets &6>> &cInvalid pet type.'
+No-Pet-Permission: '&eSimplePets &6>> &cYou do not have permission to this pet.'
+Select-Pet: '&eSimplePets &6>> &7You have selected the &e%pet% &7Pet.'
+Select-Pet-Other: '&eSimplePets &6>> &7%player% force selected the pet %pet% for you.'
+Select-Pet-Sender: '&eSimplePets &6>> &7You have set %player%''s pet to %pet%'
+Other-No-Pet-Permission: '&eSimplePets &6>> &7%player% does not have permission to
+  this pet.'
+Type-Not-Supported: '&eSimplePets &6>> &7This pet type is not supported in this version.'
+Type-Not-Enabled: '&eSimplePets &6>> &7This pet is currently disabled.'
+Pet-Name-Changed: '&eSimplePets &6>> &7Your pets name was changed to: &r%petname%'
+Menu-Name: '&a&lSelect a Pet:'
+Data-Menu:
+  PetCore-Name: '&a&lPet Data Changer'
+Pet-Ride:
+  Error: '&cWarning: &7Pet Riding is bugged for this pet (Client Side)'
+  CancelRide: true
+  _Comment_: This is a Warning message that is sent when a player Rides a mob that is buggy
+No-Spawning: '&eSimplePets &6>> &cPets are not allowed to be spawned in this region.'
+Pet-No-Enter: '&eSimplePets &6>> &cPets are not allowed in this region.'

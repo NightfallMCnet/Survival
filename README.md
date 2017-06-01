@@ -75,6 +75,14 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://www.spigotmc.org/resources/silkspawners.7811/)
   * Allows spawners to be mined with pickaxes enchanted with silk touch, as well as enable staff to change spawner types
 
+* SimpleAPI
+  * [Link](https://www.spigotmc.org/resources/simpleapi.24671/)
+  * Required for SimplePets
+
+* SimplePets
+  * [Link](https://www.spigotmc.org/resources/simplepets.14124/)
+  * Pet plugin for donator ranks
+
 * TrailGUI
   * [Link](https://www.spigotmc.org/resources/trailgui.1091/)
   * Allows players to have particles trail behind them (for donators only)

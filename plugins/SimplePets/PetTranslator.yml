@@ -1,0 +1,722 @@
+Pets:
+  Blaze:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: BLAZE_ROD
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Blaze Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Blaze
+    Description:
+    - Click here to select
+    - The Blaze pet.
+  Bat:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: FEATHER
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Bat Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Bat
+    Description:
+    - Click here to select
+    - The Bat pet.
+  Chicken:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: COOKED_CHICKEN
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Chicken Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Chicken
+    Description:
+    - Click here to select
+    - The Chicken pet.
+  Cow:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: COOKED_BEEF
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Cow Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Cow
+    Description:
+    - Click here to select
+    - The Cow pet.
+  Creeper:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SULPHUR
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Creeper Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Creeper
+    Description:
+    - Click here to select
+    - The Creeper pet.
+  Enderman:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: ENDER_PEARL
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Enderman Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Enderman
+    Description:
+    - Click here to select
+    - The Enderman pet.
+  Giant:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: EMERALD_BLOCK
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Giant Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Giant
+    Description:
+    - Click here to select
+    - The Giant pet.
+  Horse:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SADDLE
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Horse Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Horse
+    Description:
+    - Click here to select
+    - The Horse pet.
+  _Comment_: Ride speed can not be lower than 0.1 due to the fact Minecraft does some Client Side data with already Rideable mobs.
+  IronGolem:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: IRON_BLOCK
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Iron Golem Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Iron Golem
+    Description:
+    - Click here to select
+    - The Iron Golem pet.
+  Mooshroom:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: RED_MUSHROOM
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Mushroom Cow Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Mushroom Cow
+    Description:
+    - Click here to select
+    - The Mushroom Cow pet.
+  Ocelot:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: COOKED_FISH
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Ocelot Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Ocelot
+    Description:
+    - Click here to select
+    - The Ocelot pet.
+  Pig:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: PORK
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Pig Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Pig
+    Description:
+    - Click here to select
+    - The Pig pet.
+  Pigman:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: GOLD_NUGGET
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Pig Zombie Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Pig Zombie
+    Description:
+    - Click here to select
+    - The Pig Zombie pet.
+  Rabbit:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: RABBIT_FOOT
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Rabbit Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Rabbit
+    Description:
+    - Click here to select
+    - The Rabbit pet.
+  Sheep:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: WOOL
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Sheep Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Sheep
+    Description:
+    - Click here to select
+    - The Sheep pet.
+  Silverfish:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: MONSTER_EGG
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Silverfish Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Silverfish
+    Description:
+    - Click here to select
+    - The Silverfish pet.
+  Skeleton:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SKULL_ITEM
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Skeleton Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Skeleton
+    Description:
+    - Click here to select
+    - The Skeleton pet.
+  SnowMan:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SNOW_BALL
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Snowman Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Snowman
+    Description:
+    - Click here to select
+    - The Snowman pet.
+  Spider:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SPIDER_EYE
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Spider Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Spider
+    Description:
+    - Click here to select
+    - The Spider pet.
+  Villager:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: EMERALD
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Villager Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Villager
+    Description:
+    - Click here to select
+    - The Villager pet.
+  Wolf:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: BONE
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Wolf Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Wolf
+    Description:
+    - Click here to select
+    - The Wolf pet.
+  Zombie:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: ROTTEN_FLESH
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Zombie Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Zombie
+    Description:
+    - Click here to select
+    - The Zombie pet.
+  Squid:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: INK_SACK
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Squid Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Squid
+    Description:
+    - Click here to select
+    - The Squid pet.
+  Ghast:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: GHAST_TEAR
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Ghast Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Ghast
+    Description:
+    - Click here to select
+    - The Ghast pet.
+  Endermite:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: EYE_OF_ENDER
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Endermite Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Endermite
+    Description:
+    - Click here to select
+    - The Endermite pet.
+  Wither:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: NETHER_STAR
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Wither Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Wither
+    Description:
+    - Click here to select
+    - The Wither pet.
+  Witch:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: POTION
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Witch Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Witch
+    Description:
+    - Click here to select
+    - The Witch pet.
+  PolarBear:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: RAW_FISH
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Polar Bear Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Polar Bear
+    Description:
+    - Click here to select
+    - The Polar Bear pet.
+  Guardian:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: PRISMARINE_CRYSTALS
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Guardian Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Guardian
+    Description:
+    - Click here to select
+    - The Guardian pet.
+  Slime:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SLIME_BALL
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Slime Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Slime
+    Description:
+    - Click here to select
+    - The Slime pet.
+  Stray:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: CHAINMAIL_CHESTPLATE
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Stray Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Stray
+    Description:
+    - Click here to select
+    - The Stray pet.
+  Vex:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: CLAY_BALL
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Vex Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Vex
+    Description:
+    - Click here to select
+    - The Vex pet.
+  Llama:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: CARPET
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Llama Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Llama
+    Description:
+    - Click here to select
+    - The Llama pet.
+  Evoker:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: FIREWORK_CHARGE
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Evoker Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Evoker
+    Description:
+    - Click here to select
+    - The Evoker pet.
+  Vindicator:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: BEDROCK
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Vindicator Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Vindicator
+    Description:
+    - Click here to select
+    - The Vindicator pet.
+  Husk:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SKULL_ITEM
+      Durability: 2
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Husk Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Husk
+    Description:
+    - Click here to select
+    - The Husk pet.
+  Mule:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SADDLE
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Mule Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Mule
+    Description:
+    - Click here to select
+    - The Mule pet.
+  ZombieHorse:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SADDLE
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Zombie Horse Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Zombie Horse
+    Description:
+    - Click here to select
+    - The Zombie Horse pet.
+  SkeletonHorse:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SADDLE
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Skeleton Horse Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Skeleton Horse
+    Description:
+    - Click here to select
+    - The Skeleton Horse pet.
+  MagmaCube:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: MAGMA
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Magma Cube Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Magma Cube
+    Description:
+    - Click here to select
+    - The Magma Cube pet.
+  WitherSkeleton:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SKULL_ITEM
+      Durability: 1
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Wither Skeleton Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Wither Skeleton
+    Description:
+    - Click here to select
+    - The Wither Skeleton pet.
+  ElderGuardian:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: SEA_LANTERN
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Elder Guardian Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Elder Guardian
+    Description:
+    - Click here to select
+    - The Elder Guardian pet.
+  CaveSpider:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: FERMENTED_SPIDER_EYE
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Cave Spider Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Cave Spider
+    Description:
+    - Click here to select
+    - The Cave Spider pet.
+  ArmorStand:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: ARMOR_STAND
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Armor Stand Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Armor Stand
+    Description:
+    - Click here to select
+    - The Armor Stand pet.
+  Shulker:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: PURPLE_SHULKER_BOX
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Shulker Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Shulker
+    Description:
+    - Click here to select
+    - The Shulker pet.

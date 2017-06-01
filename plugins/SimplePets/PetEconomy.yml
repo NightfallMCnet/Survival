@@ -1,0 +1,108 @@
+PurchaseSuccessful: '&eSimplePets &6>> &7You have Successfully Purchased the %type%
+  Pet.'
+InsufficientFunds: '&eSimplePets &6>> &cYou do not have enough money to buy this pet,
+  you need to have %price%'
+Price-Free: Free
+Pay-Per-Use:
+  Enabled: false
+  Paid: '&eSimplePets &6>> &7You have Successfully Paid for the %type% Pet.'
+  Lore-Lines:
+  - '&6Price: &e%cost%'
+Lore-Lines:
+- '&6Price: &e%cost%'
+- '&6Purchased: &e%contains%'
+Pet:
+  Blaze:
+    Price: 2000.0
+  Bat:
+    Price: 2000.0
+  Chicken:
+    Price: 2000.0
+  Cow:
+    Price: 2000.0
+  Creeper:
+    Price: 2000.0
+  Enderman:
+    Price: 2000.0
+  Giant:
+    Price: 2000.0
+  Horse:
+    Price: 2000.0
+  IronGolem:
+    Price: 2000.0
+  Mooshroom:
+    Price: 2000.0
+  Ocelot:
+    Price: 2000.0
+  Pig:
+    Price: 2000.0
+  Pigman:
+    Price: 2000.0
+  Rabbit:
+    Price: 2000.0
+  Sheep:
+    Price: 2000.0
+  Silverfish:
+    Price: 2000.0
+  Skeleton:
+    Price: 2000.0
+  SnowMan:
+    Price: 2000.0
+  Spider:
+    Price: 2000.0
+  Villager:
+    Price: 2000.0
+  Wolf:
+    Price: 2000.0
+  Zombie:
+    Price: 2000.0
+  Squid:
+    Price: 2000.0
+  Ghast:
+    Price: 2000.0
+  Endermite:
+    Price: 2000.0
+  Wither:
+    Price: 2000.0
+  Witch:
+    Price: 2000.0
+  PolarBear:
+    Price: 2000.0
+  Guardian:
+    Price: 2000.0
+  Slime:
+    Price: 2000.0
+  Stray:
+    Price: 2000.0
+  Vex:
+    Price: 2000.0
+  Llama:
+    Price: 2000.0
+  Evoker:
+    Price: 2000.0
+  Vindicator:
+    Price: 2000.0
+  Husk:
+    Price: 2000.0
+  Mule:
+    Price: 2000.0
+  ZombieHorse:
+    Price: 2000.0
+  SkeletonHorse:
+    Price: 2000.0
+  MagmaCube:
+    Price: 2000.0
+  WitherSkeleton:
+    Price: 2000.0
+  ElderGuardian:
+    Price: 2000.0
+  CaveSpider:
+    Price: 2000.0
+  ArmorStand:
+    Price: 2000.0
+  Shulker:
+    Price: 2000.0
+  Parrot:
+    Price: 2000.0
+  Illusioner:
+    Price: 2000.0
