@@ -27,6 +27,14 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://www.spigotmc.org/resources/essentialsx.9089/)
   * Handles AFK, economy, homes, warps, and spawning
 
+* HolographicDisplays
+  * [Link](https://dev.bukkit.org/projects/holographic-displays)
+  * Enables holograms to be displayed on the server; required for HoloMedals
+
+* HoloMedals
+  * [Link](https://www.spigotmc.org/resources/holomedals-donater-perk-reward-for-events-achievements-1-8-1-11-2.31223/)
+  * Trophy system to award players for achieving certain tasks
+
 * JSONAPI
   * [Link](http://mcjsonapi.com/)
   * Allows staff to manage the server through the Adminium iOS application

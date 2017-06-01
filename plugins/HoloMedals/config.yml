@@ -1,0 +1,21 @@
+#
+#  HoloMedals by elsiff
+#
+version: 208
+
+general:
+  locale: 'en'
+  check-update: false
+  show-self-on-staying: true
+  display-on-staying: false
+  below-name: false
+  display-on-chat: false
+  op-gets-all: false
+
+mysql:
+  enable: true
+  host: 'localhost'
+  port: 3306
+  database: ''
+  username: ''
+  password: ''

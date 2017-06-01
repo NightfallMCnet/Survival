@@ -1,0 +1,46 @@
+#
+# lang_en.yml for HoloMedals
+# by elsiff
+#
+
+version: 142
+
+no-permission: "&e[HoloMedals]&r You don't have the permission."
+in-game-command: "&e[HoloMedals]&r This command is for in-game users."
+player-not-found: "&e[HoloMedals]&r There's no player named '%s%'."
+medal-not-found: "&e[HoloMedals]&r There's no medal named '%s'."
+empty-hand: "&e[HoloMedals]&r You must hold an item for medal's icon."
+already-taken-name: "&e[HoloMedals]&r '%s' is already taken. Try with other one."
+created-medal: "&e[HoloMedals]&r Successfully created medal '%s'."
+deleted-medal: "&e[HoloMedals]&r Successfully deleted medal '%s'."
+edited-medal: "&e[HoloMedals]&r Successfully edited medal '%s'."
+gave-medal: "&e[HoloMedals]&r Successfully gave '%medal%' to '%player%'."
+took-medal: "&e[HoloMedals]&r Successfully removed '%medal%' from '%player%'."
+set-display-medal: "&e[HoloMedals]&r Successfully set %player%'s display medal to %medal%."
+gained-medal: "&e[HoloMedals]&r You have got a new medal: %s"
+lost-medal: "&e[HoloMedals]&r You have lost your medal: %s"
+forced-display: "&e[HoloMedals]&r Your display medal has been set to: %s"
+already-has: "&e[HoloMedals]&r That player already has the medal."
+doesnt-have: "&e[HoloMedals]&r That player doesn't have the medal."
+reloaded: "&e[HoloMedals]&r Reloaded config and language files."
+invalid-command: "&e[HoloMedals]&r That's an invalid command."
+
+title-yours: "Your Medals"
+title-others: "%s's Medals"
+title-admin: "All Medals"
+icon-unequip-name: "&cUnequip Medal"
+icon-unequip-lore:
+- "&9Click to stop displaying"
+icon-equip-lore:
+- "&9Click to display"
+icon-selected:
+- "&9Selected"
+icon-admin-name: "&7Name: '%s'"
+icon-previous: "&aPrevious page"
+icon-next: "&aNext page"
+icon-page: "&aPage %d"
+
+old-file: "&c[HoloMedals] Your %s is too old! Please make it up-to-date."
+new-version:
+- "&e[HoloMedals]&r New version found: %s"
+- "&e[HoloMedals]&r https://www.spigotmc.org/resources/holomedals.31223/"
