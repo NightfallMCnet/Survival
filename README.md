@@ -90,3 +90,11 @@ The source files for the NightfallMC Survival Minecraft server
 * Vault
   * [Link](https://dev.bukkit.org/projects/vault)
   * Permissions and Economy API required by a few plugins that allows other plugins to easily connect to other plugins
+
+* WorldEdit
+  * [Link](https://dev.bukkit.org/projects/worldedit)
+  * World editing tool; required for WorldGuard
+
+* WorldGuard
+  * [Link](https://dev.bukkit.org/projects/worldguard)
+  * World and region protection plugin
