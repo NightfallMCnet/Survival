@@ -22,6 +22,8 @@ plugins/mcMMO/flatfile/
 plugins/OpenInv/config_old.yml
 plugins/ProtocolLib/lastupdate
 plugins/RemoteController/users.dat
+plugins/ShopChest/shops.db
 plugins/TrailGUI/Userdata.yml
+plugins/Updater/
 plugins/WorldEdit/sessions/
 plugins/WorldGuard/cache/
