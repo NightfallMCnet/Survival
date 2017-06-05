@@ -22,7 +22,7 @@
 regions:
     uuid-migration:
         perform-on-next-start: false
-        keep-names-that-lack-uuids: true
+        keep-names-that-lack-uuids: false
     use-creature-spawn-event: true
     sql:
         use: true
@@ -31,7 +31,7 @@ regions:
         password: worldguard
         table-prefix: ''
     enable: true
-    invincibility-removes-mobs: false
+    invincibility-removes-mobs: true
     nether-portal-protection: true
     fake-player-build-override: true
     explosion-flags-block-entity-damage: true
@@ -49,8 +49,8 @@ auto-no-drowning-group: false
 use-player-move-event: true
 use-player-teleports: true
 security:
-    deop-everyone-on-join: false
-    block-in-game-op-command: false
+    deop-everyone-on-join: true
+    block-in-game-op-command: true
     host-keys-allow-forge-clients: false
 host-keys: {}
 summary-on-start: true
@@ -86,7 +86,7 @@ physics:
     disable-water-damage-blocks: []
 ignition:
     block-tnt: false
-    block-tnt-block-damage: false
+    block-tnt-block-damage: true
     block-lighter: false
 fire:
     disable-lava-fire-spread: true
@@ -95,22 +95,22 @@ fire:
     lava-spread-blocks: []
 mobs:
     block-creeper-explosions: false
-    block-creeper-block-damage: false
+    block-creeper-block-damage: true
     block-wither-explosions: false
-    block-wither-block-damage: false
+    block-wither-block-damage: true
     block-wither-skull-explosions: false
-    block-wither-skull-block-damage: false
-    block-enderdragon-block-damage: false
+    block-wither-skull-block-damage: true
+    block-enderdragon-block-damage: true
     block-enderdragon-portal-creation: false
     block-fireball-explosions: false
-    block-fireball-block-damage: false
+    block-fireball-block-damage: true
     anti-wolf-dumbness: false
     allow-tamed-spawns: true
     disable-enderman-griefing: false
     disable-snowman-trails: false
-    block-painting-destroy: false
-    block-item-frame-destroy: false
-    block-armor-stand-destroy: false
+    block-painting-destroy: true
+    block-item-frame-destroy: true
+    block-armor-stand-destroy: true
     block-plugin-spawning: true
     block-above-ground-slimes: false
     block-other-explosions: false
@@ -129,13 +129,13 @@ player-damage:
     teleport-on-void-falling: false
     disable-explosion-damage: false
     disable-mob-damage: false
-    disable-death-messages: false
+    disable-death-messages: true
 chest-protection:
     enable: false
     disable-off-check: false
 crops:
-    disable-creature-trampling: false
-    disable-player-trampling: false
+    disable-creature-trampling: true
+    disable-player-trampling: true
 weather:
     prevent-lightning-strike-blocks: []
     disable-lightning-strike-fire: false
