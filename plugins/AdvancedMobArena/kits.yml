@@ -1,0 +1,237 @@
+# Kits file
+Kits:
+  # Name of the kit
+  Knight:
+    # Need to give a kit when player didn't select it self.
+    Default: true
+    # Description for GUI item.
+    Desc:
+    - '&7Basic kit. More damage, but lower armored.'
+    ItemGUI: '276:0'
+    # If you want that kit will be payable
+    Cost: 0
+    # If you want to use kit can only players with perms.
+    # Permission will be: ama.kit.<kit_name> CaSe SeNsEtIvE!
+    Permission: false
+    # Amount of wolves that will be summoned to player.
+    # Wolves will be fight with arena mobs.
+    # Set to 0 for disable.
+    Wolves: 0
+    # If 'true' player will receive a horse on the arena start
+    Mount: false
+    # If you want to use items with NBT tags or something like this and
+    # the default item parser doesn't support these items set it to true
+    # and the items will be copied from a chest to player's inventory after
+    ChestKit: false
+    # choose this kit
+    # Location for chest with items of a kit
+    ChestKitLoc:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: world
+    # Item list
+    Content:
+      # POTION SYNTAX:
+      # FOR 1.9+:
+      #   FOR SIMPLE POTION: '<POTION_EFFECT_NAME + _POTION>:0:AMOUNT'  EXAMPLE: 'HEAL_POTION:0:3'
+      #   FOR SPLASH POTION: '<POTION_EFFECT_NAME + _SPLASH>:0:AMOUNT'  EXAMPLE: 'HEAL_SPLASH:0:3'
+      #
+      # FOR 1.8:
+      #   '<ID>:<DATA>:<AMOUNT>' EXAMPLE: '373:8264:5'
+      #
+      # ENCHANTS SYNTAX:
+      #   '<ITEMID>:<DATAID>:<AMOUNT> <ENCHANT_ID>:<LEVEL> <ENCHANT_ID>:<LEVEL>' etc
+      #
+      # NAMES AND LORE SYNTAX:
+      #   '<ITEMID>:<DATAID>:<AMOUNT> <ENCHANT_ID>:<LEVEL> name:&eMy_Item lore:&dTest_lore|&eNew_Line'
+      Armor:
+      - '306:0:1'
+      - '307:0:1'
+      - '308:0:1'
+      - '309:0:1'
+      Inventory:
+      - '276:0:1'
+      - '442:0:1'
+      - '351:4:18'
+  Tank:
+    Default: false
+    Desc:
+    - '&7More armored, but lower damage.'
+    ItemGUI: '311:0'
+    Cost: 0
+    Permission: false
+    Wolves: 0
+    Mount: false
+    ChestKit: false
+    ChestKitLoc:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: world
+    Content:
+      Armor:
+      - '310:0:1'
+      - '311:0:1'
+      - '312:0:1'
+      - '313:0:1'
+      Inventory:
+      - '267:0:1'
+      - '351:4:18'
+  Archer:
+    Default: false
+    Desc:
+    - '&7Bow, arrows.'
+    ItemGUI: '261:0'
+    Cost: 0
+    Permission: false
+    Wolves: 0
+    Mount: false
+    ChestKit: false
+    ChestKitLoc:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: world
+    Content:
+      Armor:
+      - '298:0:1'
+      - '299:0:1'
+      - '300:0:1'
+      - '301:0:1'
+      Inventory:
+      - '268:0:1'
+      - '261:0:1'
+      - '262:0:256'
+      - '351:4:18'
+  Healer:
+    Default: false
+    Desc:
+    - '&7Too much heal potions. Must have.'
+    ItemGUI: '378:0'
+    Cost: 0
+    Permission: false
+    Wolves: 0
+    Mount: false
+    ChestKit: false
+    ChestKitLoc:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: world
+    Content:
+      Armor:
+      - '314:0:1'
+      - '315:0:1'
+      - '316:0:1'
+      - '317:0:1'
+      Inventory:
+      - '268:0:1'
+      - 373:16389:10
+      - 373:16421:6
+      - 373:16385:3
+      - 373:16417:1
+      - '351:4:18'
+  Dwarf:
+    Default: false
+    Desc:
+    - '&7Too much buff potions.'
+    ItemGUI: '379:0'
+    Cost: 0
+    Permission: false
+    Wolves: 0
+    Mount: false
+    ChestKit: false
+    ChestKitLoc:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: world
+    Content:
+      Armor:
+      - '302:0:1'
+      - '303:0:1'
+      - '304:0:1'
+      - '305:0:1'
+      Inventory:
+      - 279:0:1 16:2 19:1 20:1
+      - 373:8265:2
+      - 373:8233:1
+      - '351:4:18'
+  Wolf Master:
+    Default: false
+    Desc:
+    - '&7Master of Wolves.'
+    ItemGUI: '352:0'
+    Cost: 0
+    Permission: false
+    Wolves: 4
+    Mount: false
+    ChestKit: false
+    ChestKitLoc:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: world
+    Content:
+      Armor:
+      - '302:0:1'
+      - '311:0:1'
+      - '304:0:1'
+      - '313:0:1'
+      Inventory:
+      - '351:4:18'
+  Scout:
+    Default: false
+    Desc:
+    - '&7Teleport Around.'
+    ItemGUI: '432:0'
+    Cost: 0
+    Permission: false
+    Wolves: 0
+    Mount: false
+    ChestKit: false
+    ChestKitLoc:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: world
+    Content:
+      Armor:
+      - '298:0:1'
+      - '307:0:1'
+      - '300:0:1'
+      - '301:0:1'
+      Inventory:
+      - '272:0:1'
+      - '261:0:1'
+      - 439:0:64
+      - 441:8258:1
+      - '432:0:15'
+      - '351:4:18'
+  Fire Mage:
+    Default: false
+    Desc:
+    - '&7Flame Master.'
+    ItemGUI: '385:0'
+    Cost: 0
+    Permission: false
+    Wolves: 0
+    Mount: false
+    ChestKit: false
+    ChestKitLoc:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: world
+    Content:
+      Armor:
+      - '306:0:1'
+      - '307:0:1'
+      - '304:0:1'
+      - '313:0:1'
+      Inventory:
+      - 286:0:1 20:2
+      - 373:8259:1
+      - 373:16387:1
+      - '351:4:18'

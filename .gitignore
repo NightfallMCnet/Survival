@@ -5,6 +5,7 @@ world_the_end/
 *.json
 spigot.jar
 plugins/*.jar
+plugins/AdvancedMobArena/stats.yml
 plugins/bStats/
 plugins/BungeePerms/debug.log
 plugins/BungeePerms/uuidplayerdb.yml

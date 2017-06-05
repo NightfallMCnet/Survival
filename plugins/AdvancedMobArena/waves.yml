@@ -1,0 +1,56 @@
+Settings:
+  # This section define options to increase amount of mobs on the arena
+  Increasing:
+    # How many amount of mobs will be increased?
+    AmountPerWave: 1
+    # How often amount of mobs will be increased? (in waves)
+    WaveInterval: 5
+    # Maximum amount of times to increase mobs amount
+    MaxTimes: 10
+    # When wave number will be = one from the list below, amount of mobs won't be increased
+    Blacklist:
+    - 5
+    - 10
+    # Will be amount of mobs depending by amount of players on the arena?
+    MobsAmountDependByPlayersAmount: true
+    # Multiplier for mobs amount increasing
+    # Formula is '(players * wave ^ multiplier) / 1.25'
+    Multiplier: 0.5
+    # Will be mob health increased for every player on the arena?
+    IncreaseHealth: false
+    # How many amount of health will be increased?
+    HealthAmountPerPlayer: 5.0
+  # If true, then all mobs from list will be spawned. If false, only 1 random mob type will be spawned.
+  UseAllMobsWave: true
+  # If false, on boss wave will spawned only boss without other mobs
+  UseMobsOnBoss: true
+Waves:
+  Easy:
+  # SYNTAX:
+  #   LEVEL_NAME:
+  #   - MOB_TYPE:AMOUNT
+  # IF YOU WANT TO USE MYTHICMOBS USE SYNTAX LIKE THIS:
+  # - MYTHIC:<MythicMobName>:AMOUNT
+  - ZOMBIE:1
+  - SKELETON:1
+  - SPIDER:1
+  Normal:
+  - CREEPER:1
+  - CAVE_SPIDER:1
+  - PIG_ZOMBIE:1
+  Hard:
+  - WITCH:1
+  - MAGMA_CUBE:1
+  - BLAZE:1
+  - WITHER_SKELETON:1
+  Swarm:
+  - SLIME:5
+  - WOLF:5
+  - SILVERFISH:5
+  Extra:
+  - GHAST:3
+  - CHARGED_CREEPER:3
+  - KILLER_BUNNY:1
+  MythicMobs:
+  - MYTHIC:SkeletonKing:1
+  - MYTHIC:StaticSheep:1

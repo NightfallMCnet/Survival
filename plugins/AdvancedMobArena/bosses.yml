@@ -1,0 +1,31 @@
+Bosses:
+  # Boss identifier
+  # If you want to use MythicMobs, identifier must be equal valid MythicMob
+  # For example: you have MythicMob called 'SkeletonKing', so if you want to use it here
+  # change the identifier to 'SkeletonKing'.
+  Slaughter:
+    # If you want to use MythicMobs, set MobType to 'MythicMob'
+    MobType: WITHER_SKELETON
+    # Amount of mobs
+    Amount: 1
+    # Display name
+    Name: '&c&lSlaughter'
+    # Boss health
+    Health: 150
+    # Damage (10 = 5 hearts)
+    Damage: 10
+    # Speed (must be a Double)
+    # You can use '+' and '-' modifiers for speed. For example: '+0.3' it will add 0.3 to default mob speed
+    # Don't forget to use quotes ('')
+    Speed: '0.4'
+    # Only for slime/magmacube
+    Size: 4
+    # Mob equipment
+    Equipment:
+    # SYNTAX: '<ID>:<DATA>:<SLOT> <ENCH_ID>:<LEVEL> <ENCH_ID>:<LEVEL> etc.'
+    # SLOTS: 4 - HELMET, 3 - CHESTPLATE, 2 - LEGGINGS, 1 - BOOTS, 0 - MAIN HAND, 5 - OFF HAND
+    - '302:0:4 0:1'
+    - '303:0:3'
+    - '304:0:2 0:1'
+    - '305:0:1'
+    - '267:0:0'

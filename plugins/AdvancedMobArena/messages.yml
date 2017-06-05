@@ -1,0 +1,627 @@
+NoPerm: '&cYou dont have permissions to do that.'
+BlockCommand: You cant use this command in game. Type &c/ama leave&7 for leave.
+Reload: Plugin reloaded!
+WrongArguments: Wrong arguments. Type &c/ama help&7 for help.
+SpawnSet: Spawn for the arena &a%arena%&7 setted.
+LeaveSet: Leave location for the arena &a%arena%&7 setted.
+LobbySet: Lobby for the arena &a%arena%&7 setted.
+SpectSet: Spectator location for the arena &a%arena%&7 setted.
+PointSet: Region point &a№%s% for the arena &a%arena% &7setted!
+SpawnerAdd: Mob spawnpoint №&a%s &7for the arena &a%arena%&7 added.
+ArenaCreated: Created a new arena &a%arena%&7.
+ArenaAlreadyCreated: '&c&lERROR! &7Arena &c%arena%&7 is already created!'
+ArenaNotCreated: '&c&lERROR! &7Arena &c%arena%&7 is not created!'
+ArenaToggled: Arena &a%arena% &7is now %state%.
+ArenaRemoved: Arena &a%arena% &7removed.
+ArenaNotEnabled: Arena &c%arena% &7is disabled.
+ArenaInGame: Arena &a%arena% &7is already in game. You can not join now.
+AlreadyInGame: You are already in game!
+ArenaIsRecovering: Arena is recovering. You cant join now.
+NoArenas: There are no available arenas.
+OutsideFromArena: You are in outside of the arena region. You automaticly left the game.
+NeedClearInv: Your inventory must be empty to join on this arena!
+NeedPlayersToStart: 'Minimum players to start: &c%amount%'
+NotEnterMoney: You dont have enought money to enter on the arena &a%arena%&7!
+PayEnter: You paid &a%amount%$&7 for enter on the arena &a%arena%&7.
+Joined: Joined on the arena &a%arena%&7. Good Luck and Have Fun!
+Spectate: Now you are spectator on arena &a%arena%
+PlayerJoined: '&a%player% &7has joined the arena.'
+GameStartIn: The game will start in &a%time% &7seconds!
+Play: Pick up your weapons and fight!
+Wave: 'Wave &a#%wave%&7. Level: &c%level%'
+Finish: Congratulations! You are &aWINNER&7!
+MaximumPlayers: Arena has maximum players.
+Left: You left the game.
+LeaveWait: You cant leave right now. Please wait until first arena wave starts.
+Death: You died.
+Lives: 'You died. Lives lost: &c%s%&7. Be more careful!'
+PlayerDied: '&c%player%&7 has been killed ;( Players left: &a%players%'
+AnnounceJoin: Arena &a%arena% &7will start in &2%time% &7seconds. Type &a/ama join &a%arena% &7for join!
+AnnounceEnd: Game on the arena &a%arena% &7is ended. Type &a/ama join &a%arena% &7for play!
+KitChestSet: Setted the chest for kit &a%kit%&7!
+KitDisabled: This kit is disabled on this arena.
+KitCreated: Created a new kit &a%kit%&7. You can change it using &a/ama kit editor&7.
+KitsAreDisabled: Kits are disabled on this arena.
+SelectKit: You select kit &a%kit%&7.
+InvalidKit: Invalid kit!
+BuyKit: You successfully bought kit &a%kit% &7for &a%money%$&7!
+CantBuyKit: You cant afford for &c%kit% &7kit!
+KitNoPerm: You dont have permissions to use &c%kit%&7 kit!
+GivenDefaultKit: You doesnt select kit in lobby, you get default kit.
+NotAKitChest: The kit &a%kit% &7is NOT a kit chest!
+NotAChest: The block you look is NOT a chest!
+GetReward: 'You recieved reward: &a'
+CoinsGet: You get &a%coins% &7coins.
+Timeleft: Time for the arena is ended. You automaticly left the game.
+NoTPToArena: You cannot teleport to the arena region!
+NoTPFromArena: You cannot leave the arena region!
+IncorrectType: 'Incorrect type of stats. Available types: &akills&7, &acoins&7, &awins&7,
+  &aloses&7.'
+HologramAdded: Hologram was successfully added!
+ShopSpecKit: You can not using this shop with your kit!
+NoNearHolo: There are no mob arena holograms in radius of 5 blocks from you.
+ContainerAdded: Added container for the arena &a%arena%&7.
+NPCCreated: NPC created.
+NPCInvalidType: 'Invalid NPC type. Available types: &aKitSelect&7, &aArenaSelect&7,
+  &aArenaLeave&7, &aShop&7, &aStats'
+Scoreboard:
+  Title: '&8[&aMobArena&8]'
+  List:
+  - '&9'
+  - '&8&m------&8[&cArena Stats&8]&8&m------'
+  - '&8›› &fArena: &c%arena%'
+  - '&8›› &fCurrent wave: &c%wave%'
+  - '&8›› &fTotal Players: &c%players%'
+  - '&8›› &fTimeleft: &c%time%'
+  - '&8&m------&8[&eYour Stats&8]&8&m------'
+  - '&8›› &fScore: &e%score%'
+  - '&8›› &fCoins: &e%coins%'
+  - '&8›› &fMoney: &e%money%$'
+Signs:
+  Header: '&8[&4MobArena&8]'
+  Wait: '&nWAITING'
+  Stats: '&8[&1Statistics&8]'
+  Ingame: '&2&nIN-GAME&0 %w/%fw'
+  ArenaJoin: '&2&n%arena%'
+  ArenaIngame: '&4&n%arena%'
+  KitLine: '&nClick to select kit!'
+  KitNameLine: '&nKit:&r &2&n%kit%'
+  KitCostLine: '&nCost:&r &4&n%cost%'
+  LeaveLine: '&4&nClick to leave...'
+  ShopLine: '&nClick to open!'
+  ShopLine2: '&1&nShop'
+  ListLine: '&nClick to open...'
+  ListLine2: '&1&nArenas list'
+TopSigns:
+  Kills: Kills
+  Loses: Loses
+  Wins: Wins
+  Coins: Coins
+  Header: '&8[&4Top %s%&8]'
+  HeaderArena: '&8[&4Top %s% - %a%&8]'
+  Player: '&6%p%'
+  Stats: '&0%s%: &4&n%value%'
+ActionBar:
+  NewWaveIn: '&4&l&nNew wave in:&e&l %time% &6&lseconds!'
+  ClearWave: '&a&nClear wave before next!'
+  ClearBossWave: '&4&nKill the Boss before next!'
+Titles:
+  TitleJoinLobby: '&a&lWelcome to Mob Arena!'
+  SubTitleJoinLobby: '&2&lPlease, choose your kit...'
+  TitlePlay: '&a&lYou joined the arena!'
+  SubTitlePlay: '&4&lPickup your weapon and fight!'
+  TitleWave: '&6&lWave &e&l#%wave%'
+  SubTitleWave: '&4&lPrepare to fight!'
+  TitleLives: '&c&lYOU DIED!'
+  SubTitleLives: '&7Lives lost: &c&l%s%'
+  TitleLose: '&4&lYou died!'
+  SubTitleLose: '&7You automaticly left the arena...'
+  TitleFinish: '&a&lCongratulations! You finish the arena!'
+  SubTitleFinish: '&2&lCheck you inventory with rewards...'
+  TitleTimeleft: '&4&lTime is ended!'
+  SubTitleTimeleft: '&7&lYou left the arena.'
+GUI:
+  KitCost: '&7Cost: &a%cost%'
+  NoKitPerm: '&c&nYou dont have permissions to use this kit!'
+  NoArenaPerm: '&c&nYou dont have permissions to join on this arena!'
+  ArenaNotEnabled: '&c&nThis arena is currently disabled.'
+  ArenaJoin: '&2> &aClick to join the arena!'
+  ItemCost: '&7Cost: &a%cost%'
+  NoItemPerm: '&c&nYou dont have permissions!'
+  ItemBuy: You successfully bought %item%&7 for &a%cost%
+  NoMoney: You need &c%money%&7 to bought this!
+  NoPermCategory: You dont have permissions to &c%cat%
+  ShopKits: '&6This shop can be used only with kits:'
+  ShopKitsList: '&c* &e%kit%'
+  GameStatus: '&eArena is in game - %t (%p)'
+Help:
+  Header: '&8&m-------------&8&l[ &a&lAdvanced Mob Arena &8&l]&8&m-----------------'
+  General:
+    User: '&7&l* &a/ama help user &7- View user commands'
+    Arena: '&7&l* &a/ama help arena &7- View arena commands'
+    Kit: '&7&l* &a/ama help kit &7- View kit commands'
+    Hologram: '&7&l* &a/ama help hologram &7- View hologram commands'
+    NPC: '&7&l* &a/ama help npc &7- View NPC commands'
+    Admin: '&7&l* &c/ama help admin &7- View admin commands'
+  User:
+    Join: '&7&l* &a/ama join &2<arena> &7- Join to the arena'
+    Leave: '&7&l* &a/ama leave &7- Leave arena'
+    Spectate: '&7&l* &a/ama spectate &2<arena> &7- Join to spectator on the arena'
+    List: '&7&l* &a/ama list &7- View all arenas list'
+    Stats: '&7&l* &a/ama stats &7- View your arena stats'
+    TopStats: '&7&l* &a/ama topstats &2[arena] <kill/coins/wins/loses> &7- View top
+      stats'
+  Arena:
+    Create: '&7&l* &a/ama create &4<arena> &7- Create a new arena'
+    Editor: '&7&l* &a/ama editor &7- Open arena GUI editor'
+    Wand: '&7&l* &a/ama wand &2<Arena> &7- Get an item to select arena region'
+    Remove: '&7&l* &a/ama remove &2<Arena> &7- Remove an arena'
+    Toggle: '&7&l* &a/ama toggle &2<Arena> &7- Set ON/OFF status of the arena'
+    SetLobby: '&7&l* &a/ama setlobby &2<Arena> &7- Set lobby location for the arena'
+    SetSpawn: '&7&l* &a/ama setspawn &2<Arena> &7- Set spawn location for the arena'
+    SetSpect: '&7&l* &a/ama setspectator &2<Arena> &7- Set spectator location for
+      the arena'
+    SetLeave: '&7&l* &a/ama setleave &2<Arena> &7- Set leave location for the arena'
+    AddSpawn: '&7&l* &a/ama addspawner &2<Arena> &7- Add mob spawn location for the
+      arena'
+  Kit:
+    Kit: '&7&l* &a/ama kit &2<kit> &7- Get arena kit'
+    Create: '&7&l* &a/ama kit create &4<kit> &7- Create a new kit'
+    Editor: '&7&l* &a/ama kit editor &7- Open kits GUI editor'
+    Chest: '&7&l* &a/ama setkitchest &4<kit> &7- Set a chest with items for the kit'
+  Hologram:
+    Add: '&7&l* &a/ama hologram add &4[arena] <stat type> &7- Add a hologram with
+      stats at your location'
+    Remove: '&7&l* &a/ama hologram remove &7- Remove the neareast hologram'
+  NPC:
+    Add: '&7&l* &a/ama npc add &4<type/kit> &7- Add a NPC at your location'
+  Admin:
+    Info: '&7&l* &a/ama info &7- View information about plugin'
+    Reload: '&7&l* &a/ama reload &7- Reload the plugin'
+TopStats:
+  header: '&8&m------------&8&l[ &aTopStats for &2%s% &8&l]&8&m------------'
+  wins: '&a%pos%. &2%name% &7- &a%wins% &7Wins, &a%games%&7 Games Played'
+  loses: '&a%pos%. &2%name% &7- &a%loses% &7Loses, &a%games%&7 Games Played'
+  kills: '&a%pos%. &2%name% &7- &a%kills% &7Mobs killed, &a%games%&7 Games Played'
+  coins: '&a%pos%. &2%name% &7- &a%coins% &7Coins, &a%games%&7 Games Played'
+TopStatsPerArena:
+  header: '&8&m------------&8&l[ &aTopStats for &2%s% &7- Arena &a%a% &8&l]&8&m------------'
+  wins: '&a%pos%. &2%name% &7- &a%wins% &7Wins, &a%games%&7 Games Played'
+  loses: '&a%pos%. &2%name% &7- &a%loses% &7Loses, &a%games%&7 Games Played'
+  kills: '&a%pos%. &2%name% &7- &a%kills% &7Mobs killed, &a%games%&7 Games Played'
+  coins: '&a%pos%. &2%name% &7- &a%coins% &7Coins, &a%games%&7 Games Played'
+HologramTopStats:
+  header: '&8&m------------&8&l[ &aTopStats for &2%s% &8&l]&8&m------------'
+  wins: '&a%pos%. &2%name% &7- &a%wins% &7Wins, &a%games%&7 Games Played'
+  loses: '&a%pos%. &2%name% &7- &a%loses% &7Loses, &a%games%&7 Games Played'
+  kills: '&a%pos%. &2%name% &7- &a%kills% &7Mobs killed, &a%games%&7 Games Played'
+  coins: '&a%pos%. &2%name% &7- &a%coins% &7Coins, &a%games%&7 Games Played'
+HologramTopStatsPerArena:
+  header: '&8&m------------&8&l[ &aTopStats for &2%s% &7- Arena &a%a% &8&l]&8&m------------'
+  wins: '&a%pos%. &2%name% &7- &a%wins% &7Wins, &a%games%&7 Games Played'
+  loses: '&a%pos%. &2%name% &7- &a%loses% &7Loses, &a%games%&7 Games Played'
+  kills: '&a%pos%. &2%name% &7- &a%kills% &7Mobs killed, &a%games%&7 Games Played'
+  coins: '&a%pos%. &2%name% &7- &a%coins% &7Coins, &a%games%&7 Games Played'
+ItemNames:
+  ACACIA_DOOR: Acacia door
+  ACACIA_DOOR_ITEM: Acacia door
+  ACACIA_FENCE: Acacia fence
+  ACACIA_FENCE_GATE: Acacia fence gate
+  ACACIA_STAIRS: Acacia stairs
+  ACTIVATOR_RAIL: Activator rail
+  AIR: Air
+  ANVIL: Anvil
+  APPLE: Apple
+  ARMOR_STAND: Armor stand
+  ARROW: Arrow
+  BAKED_POTATO: Baked potato
+  BANNER: Banner
+  BARRIER: Barrier
+  BEACON: Beacon
+  BED: Bed
+  BEDROCK: Bedrock
+  BEETROOT: Beetroot
+  BEETROOT_BLOCK: Beetroot block
+  BEETROOT_SEEDS: Beetroot seeds
+  BEETROOT_SOUP: Beetroot soup
+  BIRCH_DOOR: Birch door
+  BIRCH_DOOR_ITEM: Birch door
+  BIRCH_FENCE: Birch fence
+  BIRCH_FENCE_GATE: Birch fence gate
+  BIRCH_WOOD_STAIRS: Birch wood stairs
+  BLACK_SHULKER_BOX: Black shulker box
+  BLAZE_POWDER: Blaze powder
+  BLAZE_ROD: Blaze rod
+  BLUE_SHULKER_BOX: Blue shulker box
+  BOAT: Boat
+  BOAT_ACACIA: Boat acacia
+  BOAT_BIRCH: Boat birch
+  BOAT_DARK_OAK: Boat dark oak
+  BOAT_JUNGLE: Boat jungle
+  BOAT_SPRUCE: Boat spruce
+  BONE: Bone
+  BONE_BLOCK: Bone block
+  BOOK: Book
+  BOOK_AND_QUILL: Book and Quill
+  BOOKSHELF: Bookshelf
+  BOW: Bow
+  BOWL: Bowl
+  BREAD: Bread
+  BREWING_STAND: Brewing stand
+  BREWING_STAND_ITEM: Brewing stand
+  BRICK: Brick
+  BRICK_STAIRS: Brick stairs
+  BROWN_MUSHROOM: Brown mushroom
+  BROWN_SHULKER_BOX: Brown shulker box
+  BUCKET: Bucket
+  CACTUS: Cactus
+  CAKE: Cake
+  CARPET: Carpet
+  CARROT: Carrot
+  CARROT_ITEM: Carrot
+  CARROT_STICK: Carrot stick
+  CAULDRON: Cauldron
+  CAULDRON_ITEM: Cauldron
+  CHAINMAIL_BOOTS: Chainmail boots
+  CHAINMAIL_CHESTPLATE: Chainmail chestplate
+  CHAINMAIL_HELMET: Chainmail helmet
+  CHAINMAIL_LEGGINGS: Chainmail leggings
+  CHEST: Chest
+  CHORUS_FLOWER: Chorus flower
+  CHORUS_FRUIT: Chorus fruit
+  CHORUS_FRUIT_POPPED: Chorus fruit popped
+  CHORUS_PLANT: Chorus plant
+  CLAY: Clay
+  CLAY_BALL: Clayball
+  CLAY_BRICK: Brick
+  COAL: Coal
+  COAL_BLOCK: Coal block
+  COAL_ORE: Coal ore
+  COBBLE_WALL: Cobble wall
+  COBBLESTONE: Cobblestone
+  COBBLESTONE_STAIRS: Cobblestone stairs
+  COCOA: Cocoa
+  COMMAND: Command block
+  COMPASS: Compass
+  COOKED_BEEF: Cooked beef
+  COOKED_CHICKEN: Cooked chicken
+  COOKED_FISH: Cooked fish
+  COOKED_MUTTON: Cooked mutton
+  COOKED_RABBIT: Cooked rabbit
+  COOKIE: Cookie
+  CROPS: Crops
+  CYAN_SHULKER_BOX: Cyan shulker box
+  DARK_OAK_DOOR: Dark oak door
+  DARK_OAK_DOOR_ITEM: Dark oak door
+  DARK_OAK_FENCE: Dark oak fence
+  DARK_OAK_FENCE_GATE: Dark oak fence gate
+  DARK_OAK_STAIRS: Dark oak stairs
+  DAYLIGHT_DETECTOR: Daylight detector
+  DEAD_BUSH: Dead bush
+  DETECTOR_RAIL: Detector rail
+  DIAMOND: Diamond
+  DIAMOND_AXE: Diamond axe
+  DIAMOND_BARDING: Diamond barding
+  DIAMOND_BLOCK: Diamond block
+  DIAMOND_BOOTS: Diamond boots
+  DIAMOND_CHESTPLATE: Diamond chestplate
+  DIAMOND_HELMET: Diamond helmet
+  DIAMOND_HOE: Diamond hoe
+  DIAMOND_LEGGINGS: Diamond leggings
+  DIAMOND_ORE: Diamond ore
+  DIAMOND_PICKAXE: Diamond pickaxe
+  DIAMOND_SPADE: Diamond spade
+  DIAMOND_SWORD: Diamond sword
+  DIODE: Diode
+  DIRT: Dirt
+  DISPENSER: Dispenser
+  DOUBLE_PLANT: Double plant
+  DOUBLE_STEP: Double step
+  DRAGON_EGG: Dragon Egg
+  DRAGONS_BREATH: Dragons breath
+  DROPPER: Dropper
+  EGG: Egg
+  ELYTRA: Elytra
+  EMERALD: Emerald
+  EMERALD_BLOCK: Emerald block
+  EMERALD_ORE: Emerald ore
+  EMPTY_MAP: Empty map
+  ENCHANTED_BOOK: Enchanted book
+  ENCHANTMENT_TABLE: Enchantment table
+  END_BRICKS: End bricks
+  END_CRYSTAL: End Crystal
+  END_GATEWAY: End Gateway
+  END_ROD: End rod
+  ENDER_CHEST: Ender chest
+  ENDER_PEARL: Ender pearl
+  ENDER_PORTAL: Ender portal
+  ENDER_PORTAL_FRAME: Ender portal frame
+  ENDER_STONE: Ender stone
+  EXP_BOTTLE: Exp bottle
+  EXPLOSIVE_MINECART: Explosive minecart
+  EYE_OF_ENDER: Eye of Ender
+  FEATHER: Feather
+  FENCE: Fence
+  FENCE_GATE: Fence gate
+  FERMENTED_SPIDER_EYE: Fermented spider eye
+  FIRE: Fire
+  FIREBALL: Fireball
+  FIREWORK: Firework
+  FIREWORK_CHARGE: Firework charge
+  FISHING_ROD: Fishing rod
+  FLINT: Flint
+  FLINT_AND_STEEL: Flint and steel
+  FLOWER_POT: Flower pot
+  FLOWER_POT_ITEM: Flower pot
+  FROSTED_ICE: Frosted Ice
+  FURNACE: Furnace
+  GHAST_TEAR: Ghast tear
+  GLASS: Glass
+  GLASS_BOTTLE: Glass bottle
+  GLOWSTONE: Glowstone
+  GLOWSTONE_DUST: Glowstone dust
+  GOLD_AXE: Gold axe
+  GOLD_BARDING: Gold barding
+  GOLD_BLOCK: Gold block
+  GOLD_BOOTS: Gold boots
+  GOLD_CHESTPLATE: Gold chestplate
+  GOLD_HELMET: Gold helmet
+  GOLD_HOE: Gold hoe
+  GOLD_INGOT: Gold ingot
+  GOLD_LEGGINGS: Gold leggings
+  GOLD_NUGGET: Gold nugget
+  GOLD_ORE: Gold ore
+  GOLD_PICKAXE: Gold pickaxe
+  GOLD_PLATE: Gold plate
+  GOLD_RECORD: Gold record
+  GOLD_SPADE: Gold spade
+  GOLD_SWORD: Gold sword
+  GOLDEN_APPLE: Golden apple
+  GOLDEN_CARROT: Golden carrot
+  GRASS: Grass
+  GRASS_PATH: Grass path
+  GRAVEL: Gravel
+  GRAY_SHULKER_BOX: Gray shulker box
+  GREEN_RECORD: Green record
+  GREEN_SHULKER_BOX: Green shulker box
+  GRILLED_PORK: Grilled pork
+  HARD_CLAY: Hard clay
+  HAY_BLOCK: Hay block
+  HOPPER: Hopper
+  HOPPER_MINECART: Hopper minecart
+  HUGE_MUSHROOM_1: Mushroom
+  HUGE_MUSHROOM_2: Mushroom
+  ICE: Ice
+  INK_SACK: Inc sack
+  IRON_AXE: Iron axe
+  IRON_BARDING: Iron barding
+  IRON_BLOCK: Iron block
+  IRON_BOOTS: Iron boots
+  IRON_CHESTPLATE: Iron chestplate
+  IRON_DOOR: Iron door
+  IRON_FENCE: Iron fence
+  IRON_HELMET: Iron helmet
+  IRON_HOE: Iron hoe
+  IRON_INGOT: Iron ingot
+  IRON_LEGGINGS: Iron leggings
+  IRON_ORE: Iron ore
+  IRON_PICKAXE: Iron pickaxe
+  IRON_PLATE: Iron plate
+  IRON_SPADE: Iron spade
+  IRON_SWORD: Iron sword
+  IRON_TRAPDOOR: Iron trapdoor
+  ITEM_FRAME: Item frame
+  JACK_O_LANTERN: Jack o Lantern
+  JUKEBOX: Jukebox
+  JUNGLE_DOOR: Jungle door
+  JUNGLE_DOOR_ITEM: Jungle door
+  JUNGLE_FENCE: Jungle fence
+  JUNGLE_FENCE_GATE: Jungle fence gate
+  JUNGLE_WOOD_STAIRS: Jungle wood stairs
+  LADDER: Ladder
+  LAPIS_BLOCK: Lapis block
+  LAPIS_ORE: Lapis ore
+  LAVA: Lava
+  LAVA_BUCKET: Lava bucket
+  LEASH: Leash
+  LEATHER: Leather
+  LEATHER_BOOTS: Leather boots
+  LEATHER_CHESTPLATE: Leather chestplate
+  LEATHER_HELMET: Leather helmet
+  LEATHER_LEGGINGS: Leather leggings
+  LEAVES: Leaves
+  LEAVES_2: Leaves
+  LEVER: Lever
+  LIGHT_BLUE_SHULKER_BOX: Light blue shulker box
+  LIME_SHULKER_BOX: Lime shulker box
+  LINGERING_POTION: Lingering potion
+  LOG: Log
+  LOG_2: Log
+  LONG_GRASS: Long grass
+  MAGENTA_SHULKER_BOX: Magenta shulker box
+  MAGMA: Magma
+  MAGMA_CREAM: Magma cream
+  MAP: Map
+  MELON: Melon
+  MELON_BLOCK: Melon block
+  MELON_SEEDS: Melon seeds
+  MELON_STEM: Melon stem
+  MILK_BUCKET: Milk bucket
+  MINECART: Minecart
+  MOB_SPAWNER: Mob Spawner
+  MONSTER_EGG: Monster Egg
+  MONSTER_EGGS: Monster Egg
+  MOSSY_COBBLESTONE: Mossy Cobblestone
+  MUSHROOM_SOUP: Mushroom soup
+  MUTTON: Mutton
+  MYCEL: Mycel
+  NAME_TAG: Name Tag
+  NETHER_BRICK: Nether brick
+  NETHER_BRICK_ITEM: Nether brick
+  NETHER_BRICK_STAIRS: Nether brick stairs
+  NETHER_FENCE: Nether fence
+  NETHER_STALK: Nether stalk
+  NETHER_STAR: Nether star
+  NETHER_WART_BLOCK: Nether wart block
+  NETHER_WARTS: Nether warts
+  NETHERRACK: Netherrack
+  NOTE_BLOCK: Note block
+  OBSERVER: Observer
+  OBSIDIAN: Obsidian
+  ORANGE_SHULKER_BOX: Orange shulker box
+  PACKED_ICE: Packed Ice
+  PAINTING: Painting
+  PAPER: Paper
+  PINK_SHULKER_BOX: Pink shulker box
+  PISTON_BASE: Piston
+  PISTON_STICKY_BASE: Sticky piston
+  POISONOUS_POTATO: Poisonous potato
+  PORK: Pork
+  PORTAL: Portal
+  POTATO: Potato
+  POTATO_ITEM: Potato
+  POTION: Potion
+  POWERED_MINECART: Powered minecart
+  POWERED_RAIL: Powered rail
+  PRISMARINE: Prismarine
+  PRISMARINE_CRYSTALS: Prismarine crystals
+  PRISMARINE_SHARD: Prismarine shard
+  PUMPKIN: Pumpkin
+  PUMPKIN_PIE: Pumpkin pie
+  PUMPKIN_SEEDS: Pumpkin seeds
+  PUMPKIN_STEM: Pumpkin stem
+  PURPLE_SHULKER_BOX: Purple shulker box
+  PURPUR_BLOCK: Purpur block
+  PURPUR_DOUBLE_SLAB: Purpur double slab
+  PURPUR_PILLAR: Purpur pillar
+  PURPUR_SLAB: Purpur slab
+  PURPUR_STAIRS: Purpur stairs
+  QUARTZ: Quartz
+  QUARTZ_BLOCK: Quartz block
+  QUARTZ_ORE: Quartz ore
+  QUARTZ_STAIRS: Quartz stairs
+  RABBIT: Rabbit
+  RABBIT_FOOT: Rabbit foot
+  RABBIT_HIDE: Rabbit hide
+  RABBIT_STEW: Rabbit stew
+  RAILS: Rails
+  RAW_BEEF: Raw beef
+  RAW_CHICKEN: Raw chicken
+  RAW_FISH: Raw fish
+  RECORD_10: Record
+  RECORD_11: Record
+  RECORD_12: Record
+  RECORD_3: Record
+  RECORD_4: Record
+  RECORD_5: Record
+  RECORD_6: Record
+  RECORD_7: Record
+  RECORD_8: Record
+  RECORD_9: Record
+  RED_MUSHROOM: Red mushroom
+  RED_NETHER_BRICK: Red nether brick
+  RED_ROSE: Red rose
+  RED_SANDSTONE: Red sandstone
+  RED_SANDSTONE_STAIRS: Red sandstone stairs
+  RED_SHULKER_BOX: Red shulker box
+  REDSTONE: Redstone
+  REDSTONE_BLOCK: Redstone block
+  REDSTONE_COMPARATOR: Comparator
+  REDSTONE_LAMP_OFF: Redstone lamp
+  REDSTONE_ORE: Redstone ore
+  REDSTONE_TORCH_OFF: Redstone torch
+  REDSTONE_WIRE: Redstone
+  ROTTEN_FLESH: Rotten flesh
+  SADDLE: Saddle
+  SAND: Sand
+  SANDSTONE: Sandstone
+  SANDSTONE_STAIRS: Sandstone stairs
+  SAPLING: Sapling
+  SEA_LANTERN: Sea lantern
+  SEEDS: Seeds
+  SHEARS: Shears
+  SHIELD: Shield
+  SHULKER_SHELL: Shulker shell
+  SIGN: Sign
+  SIGN_POST: Sign
+  SILVER_SHULKER_BOX: Silver shulker box
+  SKULL: Skull
+  SKULL_ITEM: Skull
+  SLIME_BALL: Slime ball
+  SLIME_BLOCK: Slime block
+  SMOOTH_BRICK: Smooth brick
+  SMOOTH_STAIRS: Smooth stairs
+  SNOW: Snow
+  SNOW_BALL: Snowball
+  SNOW_BLOCK: Snow block
+  SOIL: Soil
+  SOUL_SAND: Soulsand
+  SPECKLED_MELON: Speckled melon
+  SPECTRAL_ARROW: Spectral arrow
+  SPIDER_EYE: Spider eye
+  SPLASH_POTION: Splash potion
+  SPONGE: Sponge
+  SPRUCE_DOOR: Spruce door
+  SPRUCE_DOOR_ITEM: Spruce door
+  SPRUCE_FENCE: Spruce fence
+  SPRUCE_FENCE_GATE: Spruce fence gate
+  SPRUCE_WOOD_STAIRS: Spruce wood stairs
+  STAINED_CLAY: Stained clay
+  STAINED_GLASS: Stained glass
+  STAINED_GLASS_PANE: Stained glass pane
+  STATIONARY_LAVA: Lava
+  STATIONARY_WATER: Water
+  STEP: Step
+  STICK: Stick
+  STONE: Stone
+  STONE_AXE: Stone axe
+  STONE_BUTTON: Stone button
+  STONE_HOE: Stone hoe
+  STONE_PICKAXE: Stone pickaxe
+  STONE_PLATE: Stone plate
+  STONE_SLAB2: Stone slab
+  STONE_SPADE: Stone spade
+  STONE_SWORD: Stone sword
+  STORAGE_MINECART: Storage minecart
+  STRING: String
+  STRUCTURE_BLOCK: Structure block
+  STRUCTURE_VOID: Structure void
+  SUGAR: Sugar
+  SUGAR_CANE: Sugar cane
+  SUGAR_CANE_BLOCK: Sugar cane
+  SULPHUR: Sulphur
+  THIN_GLASS: Thin glass
+  TIPPED_ARROW: Tipped arrow
+  TNT: TNT
+  TORCH: Torch
+  TOTEM: Totem
+  TRAP_DOOR: Trap door
+  TRAPPED_CHEST: Trapped chest
+  TRIPWIRE: Tripwire
+  TRIPWIRE_HOOK: Tripwire hook
+  VINE: Vine
+  WATCH: Watch
+  WATER: Water
+  WATER_BUCKET: Water bucket
+  WATER_LILY: Water lily
+  WEB: Web
+  WHEAT: Wheat
+  WHITE_SHULKER_BOX: White shulker box
+  WOOD: Wood
+  WOOD_AXE: Wood axe
+  WOOD_BUTTON: Wood button
+  WOOD_DOOR: Wood door
+  WOOD_DOUBLE_STEP: Wood double step
+  WOOD_HOE: Wood hoe
+  WOOD_PICKAXE: Wood pickaxe
+  WOOD_PLATE: Wood plate
+  WOOD_SPADE: Wood spade
+  WOOD_STAIRS: Wood stairs
+  WOOD_STEP: Wood step
+  WOOD_SWORD: Wood sword
+  WOODEN_DOOR: Wooden door
+  WOOL: Wool
+  WORKBENCH: Workbench
+  WRITTEN_BOOK: Written book
+  YELLOW_FLOWER: Yellow flower
+  YELLOW_SHULKER_BOX: Yellow shulker box

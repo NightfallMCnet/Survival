@@ -1,0 +1,241 @@
+Shop:
+  # Name of the category
+  Weapons:
+    # Category lore
+    Lore:
+    - '&7Buy some weapon.'
+    # Icon ID
+    ID: '267:0'
+    # Permission for open category
+    Permission: false
+    # Only players with specified kits can use this shop
+    AllowedKits:
+    - Templar
+    - Warrior
+    # Items list. Must be from 0.
+    Items:
+      '0':
+        Name: '&eSword Level I'
+        Lore:
+        - '&7- &cSharpness I'
+        ID: '267:0'
+        Permission: false
+        Cost: 50
+        Commands:
+        - 'give %p 267 1 16:1'
+        Slot: 0
+      '1':
+        Name: '&eSword Level II'
+        Lore:
+        - '&7- &cSharpness II'
+        ID: '267:0'
+        Permission: false
+        Cost: 100
+        Commands:
+        - 'give %p 267 1 16:2'
+        Slot: 9
+      '2':
+        Name: '&eSword Level III'
+        Lore:
+        - '&7- &cSharpness III'
+        ID: '267:0'
+        Permission: false
+        Cost: 150
+        Commands:
+        - 'give %p 267 1 16:3'
+        Slot: 18
+      '3':
+        Name: '&eSword Level IV'
+        Lore:
+        - '&7- &cSharpness IV'
+        ID: '267:0'
+        Permission: false
+        Cost: 200
+        Commands:
+        - 'give %p 267 1 16:4'
+        Slot: 27
+  Armors:
+    Lore:
+    - '&7Buy some armor.'
+    ID: '311:0'
+    Permission: true
+    AllowedKits:
+    - Templar
+    - Warrior
+    Items:
+      '0':
+        Name: '&bDiamond Helmet Level I'
+        Lore:
+        - '&7- &cProtect I'
+        ID: '310:0'
+        Permission: false
+        Cost: 50
+        Commands:
+        - 'give %p 310 1 0:1'
+        Slot: 0
+      '1':
+        Name: '&bDiamond Helmet Level II'
+        Lore:
+        - '&7- &cProtect II'
+        ID: '310:0'
+        Permission: false
+        Cost: 100
+        Commands:
+        - 'give %p 310 1 0:2'
+        Slot: 1
+      '2':
+        Name: '&bDiamond Helmet Level III'
+        Lore:
+        - '&7- &cProtect III'
+        ID: '310:0'
+        Permission: false
+        Cost: 150
+        Commands:
+        - 'give %p 310 1 0:3'
+        Slot: 2
+      '3':
+        Name: '&bDiamond Helmet Level IV'
+        Lore:
+        - '&7- &cProtect IV'
+        ID: '310:0'
+        Permission: false
+        Cost: 200
+        Commands:
+        - 'give %p 310 1 0:4'
+        Slot: 3
+      '4':
+        Name: '&bDiamond Chestplate Level I'
+        Lore:
+        - '&7- &cProtect I'
+        ID: '311:0'
+        Permission: false
+        Cost: 50
+        Commands:
+        - 'give %p 311 1 0:1'
+        Slot: 9
+      '5':
+        Name: '&bDiamond Chestplate Level II'
+        Lore:
+        - '&7- &cProtect II'
+        ID: '311:0'
+        Permission: false
+        Cost: 100
+        Commands:
+        - 'give %p 311 1 0:2'
+        Slot: 10
+      '6':
+        Name: '&bDiamond Chestplate Level III'
+        Lore:
+        - '&7- &cProtect III'
+        ID: '311:0'
+        Permission: false
+        Cost: 150
+        Commands:
+        - 'give %p 311 1 0:3'
+        Slot: 11
+      '7':
+        Name: '&bDiamond Chestplate Level IV'
+        Lore:
+        - '&7- &cProtect IV'
+        ID: '311:0'
+        Permission: false
+        Cost: 200
+        Commands:
+        - 'give %p 311 1 0:4'
+        Slot: 12
+      '8':
+        Name: '&bDiamond Leggings Level I'
+        Lore:
+        - '&7- &cProtect I'
+        ID: '312:0'
+        Permission: false
+        Cost: 50
+        Commands:
+        - 'give %p 312 1 0:1'
+        Slot: 18
+      '9':
+        Name: '&bDiamond Leggings Level II'
+        Lore:
+        - '&7- &cProtect II'
+        ID: '312:0'
+        Permission: false
+        Cost: 100
+        Commands:
+        - 'give %p 312 1 0:2'
+        Slot: 19
+      '10':
+        Name: '&bDiamond Leggings Level III'
+        Lore:
+        - '&7- &cProtect III'
+        ID: '312:0'
+        Permission: false
+        Cost: 150
+        Commands:
+        - 'give %p 312 1 0:3'
+        Slot: 20
+      '11':
+        Name: '&bDiamond Leggings Level IV'
+        Lore:
+        - '&7- &cProtect IV'
+        ID: '312:0'
+        Permission: false
+        Cost: 200
+        Commands:
+        - 'give %p 312 1 0:4'
+        Slot: 21
+      '12':
+        Name: '&bDiamond Boots Level I'
+        Lore:
+        - '&7- &cProtect I'
+        ID: '313:0'
+        Permission: false
+        Cost: 50
+        Commands:
+        - 'give %p 313 1 0:1'
+        Slot: 27
+      '13':
+        Name: '&bDiamond Boots Level II'
+        Lore:
+        - '&7- &cProtect II'
+        ID: '313:0'
+        Permission: false
+        Cost: 100
+        Commands:
+        - 'give %p 313 1 0:2'
+        Slot: 28
+      '14':
+        Name: '&bDiamond Boots Level III'
+        Lore:
+        - '&7- &cProtect III'
+        ID: '313:0'
+        Permission: false
+        Cost: 150
+        Commands:
+        - 'give %p 313 1 0:3'
+        Slot: 29
+      '15':
+        Name: '&bDiamond Boots Level IV'
+        Lore:
+        - '&7- &cProtect IV'
+        ID: '313:0'
+        Permission: false
+        Cost: 200
+        Commands:
+        - 'give %p 313 1 0:4'
+        Slot: 30
+  Misc:
+    Lore:
+    - '&7Buy some stuff.'
+    ID: '322:1'
+    Permission: true
+    Items:
+      '0':
+        Name: '&eGolden Apple'
+        Lore:
+        - '&7- &c+2 More Hearts'
+        ID: '322:0'
+        Permission: false
+        Cost: 50
+        Commands:
+        - 'give %p 322 1'
+        Slot: 0

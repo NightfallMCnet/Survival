@@ -1,0 +1,149 @@
+Hooks:
+  Citizens: false
+  HolographicDisplays: false
+GlobalArenaSettings:
+  Prefix: '&aMobArena &8›› &7'
+  UseSigns: true
+  UseActionBar: true
+  UseTitles: true
+  MobLavaDamage: true
+  SignsUpdateTime: 600
+  HologramsUpdateTime: 600
+  Items:
+    KitItem:
+      Enabled: false
+      ID: 130
+      Data: 0
+      Name: '&a&nKit Selector'
+      Lore:
+      - '&7(Right click to open)'
+    LeaveItem:
+      Enabled: false
+      ID: 331
+      Data: 0
+      Name: '&c&nLeave Arena'
+      Lore:
+      - '&7(Right click to leave)'
+    ShopItem:
+      Enabled: false
+      ID: 388
+      Data: 0
+      Name: '&a&nShop'
+      Lore:
+      - '&7(Right click to open)'
+  GUI:
+    Kits:
+      Title: '&1&lKit Selector'
+      Size: 9
+    Shop:
+      Title: '&1&lArena Shop'
+      Size: 9
+    ArenaList:
+      Title: '&1&lArena List'
+      Size: 9
+    PlayerStatsSelect:
+      Title: '&1&lSelect the arena'
+      Size: 27
+      Items:
+        TotalStats:
+          Material: GOLDEN_APPLE
+          Data: 0
+          Name: '&d&nView Total Stats'
+          Lore:
+          - '&d›› &7Click me!'
+          Slot: 22
+    PlayerStatsArena:
+      Title: '&1&lArena Stats'
+      Size: 9
+      Items:
+        Wins:
+          Material: DIAMOND
+          Data: 0
+          Name: '&b&nWins&b (%arena%)'
+          Lore:
+          - '&b›› &7Games Won: &b%s%'
+          Slot: 1
+        Loses:
+          Material: COAL
+          Data: 0
+          Name: '&c&nLoses&c (%arena%)'
+          Lore:
+          - '&c›› &7Games Lose: &c%s%'
+          Slot: 3
+        Kills:
+          Material: EMERALD
+          Data: 0
+          Name: '&a&nMobs killed&a (%arena%)'
+          Lore:
+          - '&a›› &7Mobs killed: &a%s%'
+          Slot: 5
+        Coins:
+          Material: DOUBLE_PLANT
+          Data: 0
+          Name: '&e&nCoins collected&e (%arena%)'
+          Lore:
+          - '&e›› &7Coins collected: &e%s%'
+          Slot: 7
+    PlayerStatsTotal:
+      Title: '&1&lArena Total Stats'
+      Size: 9
+      Items:
+        Wins:
+          Material: DIAMOND
+          Data: 0
+          Name: '&b&nWins&b (Total)'
+          Lore:
+          - '&b›› &7Games Won: &b%s%'
+          Slot: 1
+        Loses:
+          Material: COAL
+          Data: 0
+          Name: '&c&nLoses&c (Total)'
+          Lore:
+          - '&c›› &7Games Lose: &c%s%'
+          Slot: 3
+        Kills:
+          Material: EMERALD
+          Data: 0
+          Name: '&a&nMobs killed&a (Total)'
+          Lore:
+          - '&a›› &7Mobs killed: &a%s%'
+          Slot: 5
+        Coins:
+          Material: DOUBLE_PLANT
+          Data: 0
+          Name: '&e&nCoins collected&e (Total)'
+          Lore:
+          - '&e›› &7Coins collected: &e%s%'
+          Slot: 7
+  Shop:
+    EnabledInLobby: false
+    SaveCoins: false
+    Upgrade: false
+    HideNoPerm: false
+    HideNoKit: false
+    Nothing:
+      Display: '&cAccess Denied!'
+      Lore:
+      - '&7It seems that you dont have'
+      - '&7access to any shop category :('
+    Currency: Coins
+    CoinsPerMob: 5
+    CoinsPerBoss: 30
+NPCSettings:
+  Names:
+    KitSelect: '&e&nKit Select'
+    ArenaSelect: '&a&nArena Select'
+    ArenaLeave: '&c&nLeave Arena'
+    Shop: '&a&nArena Shop'
+    Stats: '&b&nArena Stats'
+  KitName: '&6&n%s'
+WolvesSettings:
+  Name: '&a%ps &ewolf'
+  Health: 30
+  Damage: 5
+  Speed: '+0.1'
+MountSettings:
+  Name: '&3%ps &bMount'
+  Health: 100
+  Speed: '+0.3'
