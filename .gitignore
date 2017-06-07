@@ -26,5 +26,6 @@ plugins/RemoteController/users.dat
 plugins/ShopChest/shops.db
 plugins/TrailGUI/Userdata.yml
 plugins/Updater/
+plugins/Votifier/
 plugins/WorldEdit/sessions/
 plugins/WorldGuard/cache/
