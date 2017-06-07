@@ -1,8 +1,8 @@
 useUUIDs: true
 useregexperms: false
 grouppermission: true
-backendtype: YAML
-uuidplayerdb: YAML
+backendtype: MySQL2
+uuidplayerdb: MySQL
 tablePrefix: bungeeperms_
 uuidfetcher:
   cooldown: 3000
@@ -32,3 +32,10 @@ debug:
   path: C:\New Nightfall\Survival\plugins\BungeePerms/debug.log
   showexceptions: true
   showlogs: false
+bungeeperms:
+  general:
+    mysqlhost: localhost
+    mysqlport: '3306'
+    mysqldb: bungeeperms
+    mysqluser: bungeeperms
+    mysqlpw: password

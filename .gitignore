@@ -13,6 +13,7 @@ plugins/BuycraftX/cache/
 plugins/Chairs/sit-disabled.txt
 plugins/Essentials/warps/
 plugins/Essentials/items.csv
+plugins/GAListener/GAL.db
 plugins/HoloMedals/userdata.yml
 plugins/JSONAPI/users.yml
 plugins/LogBlock/materials.yml

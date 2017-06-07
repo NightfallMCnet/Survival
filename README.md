@@ -2,7 +2,7 @@
 
 The source files for the NightfallMC Survival Minecraft server
 
-##Plugins
+## Plugins
 * BungeePerms
   * [Link](https://www.spigotmc.org/resources/bungeeperms.25/)
   * Handles permissions; linked with BungeeCord server's BungeePerms plugin
@@ -27,6 +27,10 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://www.spigotmc.org/resources/essentialsx.9089/)
   * Handles AFK, economy, homes, warps, and spawning
 
+* GAListener
+  * [Link](https://dev.bukkit.org/projects/give-anything-listener)
+  * Handles distributing vote rewards to players
+
 * HolographicDisplays
   * [Link](https://dev.bukkit.org/projects/holographic-displays)
   * Enables holograms to be displayed on the server; required for HoloMedals
@@ -47,6 +51,10 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://dev.bukkit.org/projects/logblock)
   * Tracks block placement and destruction, as well as sign and chest access information
 
+* LogBlockQuestioner
+  * [Link](https://github.com/LogBlock/LogBlock/raw/master/LogBlockQuestioner.jar)
+  * Addon to LogBlock to send confirmations to users before making any actions
+
 * mcMMO
   * [Link](https://www.spigotmc.org/resources/mcmmo.2445/)
   * Adds RPG leveling system to most player tasks, granting players perks for leveling up certain skills
@@ -54,6 +62,10 @@ The source files for the NightfallMC Survival Minecraft server
 * mcMMOAction
   * [Link](https://www.spigotmc.org/resources/mcmmoaction.17261/)
   * mcMMO addon that shows player notifications in the action bar
+
+* NuVotifier
+  * [Link](https://www.spigotmc.org/resources/nuvotifier.13449/)
+  * Handles players voting on voting sites
 
 * OldPvP
   * [Link](https://www.spigotmc.org/resources/1-8-pvp-for-1-9-1-10-and-1-11.19291/)
@@ -74,6 +86,10 @@ The source files for the NightfallMC Survival Minecraft server
 * SilkSpawners
   * [Link](https://www.spigotmc.org/resources/silkspawners.7811/)
   * Allows spawners to be mined with pickaxes enchanted with silk touch, as well as enable staff to change spawner types
+
+* SilkSpawnersEcoAddon
+  * [Link](https://dev.bukkit.org/projects/silkspawnersecoaddon)
+  * Economy addon to SilkSpawners to charge players for spawner changes
 
 * SimpleAPI
   * [Link](https://www.spigotmc.org/resources/simpleapi.24671/)
