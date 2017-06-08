@@ -30,9 +30,9 @@ signTags:
 # │ ECONOMY: Options to change the display of prices.                                                                          │
 # └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 # The characters displayed before a price.
-moneyCharacter: '$'
+moneyCharacter: ''
 # The characters displayed after a price.
-moneyCharacterAfter: ''
+moneyCharacterAfter: ' Lunar'
 # How many numbers behind the dot should be shown (2 will make numbers like '8.55', '9.01', '5.20').
 fractionalNumbers: 2
 # Set this to true if you want to hide '.0' for a number like '15.0' ('4.50' will still stay '4.50').
