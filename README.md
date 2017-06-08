@@ -63,6 +63,10 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://www.spigotmc.org/resources/mcmmoaction.17261/)
   * _mcMMO addon that shows player notifications in the action bar_
 
+* NoNpcTrade
+  * [Link](https://dev.bukkit.org/projects/nonpctrade)
+  * _Disables vanilla villager trading_
+
 * NuVotifier
   * [Link](https://www.spigotmc.org/resources/nuvotifier.13449/)
   * _Handles players voting on voting sites_
