@@ -94,7 +94,7 @@ auto-reload-time: 1200
 shop-creation-price:
 
   # ...a normal shop
-  normal: 5
+  normal: 0
 
   # ...an admin shop
   admin: 0
@@ -166,3 +166,104 @@ shop-limits:
   # Set the amount of shops that anyone who doesn't have a specific permission may have.
   # If you don't want the players to have a limit by default, set the value to -1.
   default: -1
+
+# Set the quality (speed) for hologram and item updating.
+# Valid values are (from slowest to fastest):
+# 'SLOWEST', 'SLOWER', 'SLOW', 'NORMAL', 'FAST', 'FASTER', 'FASTEST'
+# The faster the value, the more performance will be used, which
+# may lead to TPS loss.
+update-quality: NORMAL
+
+# Set the item with which a player can click a shop to retrieve information.
+# You can set this to an empty string to disable this feature.
+shop-info-item: "STICK"
+
+# Set whether AuthMe integration should be enabled
+# Of course, this only works if AuthMe is installed
+enable-authme-integration: false
+
+# Set whether PlotSquared integration should be enabled
+# Of course, this only works if PlotSquared is installed
+enable-plotsquared-integration: false
+
+# Set whether uSkyBlock integration should be enabled
+# Of course, this only works if uSkyBlock is installed
+enable-uskyblock-integration: false
+
+# Set whether ASkyBlock integration should be enabled
+# Of course, this only works if ASkyBlock is installed
+enable-askyblock-integration: false
+
+# Set whether IslandWorld integration should be enabled
+# Of course, this only works if IslandWorld is installed
+enable-islandworld-integration: false
+
+# Set whether GriefPrevention integration should be enabled
+# Of course, this only works if GriefPrevention is installed
+enable-griefprevention-integration: false
+
+# Set whether AreaShop integration should be enabled
+# Of course, this only works if AreaShop and WorldGuard is installed
+enable-areashop-integration: true
+
+# Set whether only the shops a player has in sight should be shown to him.
+# If set to false, every shop near the player (with the specified
+# distance) will be shown to him.
+only-show-shops-in-sight: true
+
+# Set whether only the shop a player is looking at should be shown to him.
+# This only has effect if 'only-show-shops-in-sight' is enabled
+only-show-first-shop-in-sight: true
+
+# Set whether the hologram's location should be fixed at the bottom,
+# so when it gets more lines, it won't interfere with the item or chest,
+# but goes higher.
+hologram-fixed-bottom: true
+
+# Set whether the mouse buttons should be inverted.
+# Default:
+# Right-Click -> Buy
+# Left-Click -> Sell
+invert-mouse-buttons: false
+
+# Set the maximum prices for each individual Item. Not per Stack, per single Item!
+# To add an item, follow the format below.
+# Important: You must have exactly 2 leading spaces in each line
+# You can find the item names in the 'item_names.txt' file.
+maximum-prices:
+# "STONE:1": 19.9
+# "DIAMOND_SWORD": 1000
+
+# Set the events of AreaShop when shops on that region should be removed.
+# Important: You must have exactly 2 leading spaces in each line
+# Valid values are: DELETE, UNRENT, RESELL, SELL
+areashop-remove-shops:
+  - "DELETE"
+  - "UNRENT"
+  - "RESELL"
+  - "SELL"
+
+# Set whether the custom WorldGuard flags should be allowed by default
+# (true = Allowed by default, false = Denied by default)
+# This can, of course, be overridden in specific regions and is only
+# enabled if WorldGuard is installed and WorldGuard integration is enabled
+worldguard-default-flag-values:
+
+  create-shop: true
+  use-shop: true
+  use-admin-shop: true
+
+# Set the types of Towny plots where shop creation should be allowed for...
+# Important: You must have exactly 4 leading spaces in each line
+# Valid values are:
+# RESIDENTIAL, COMMERCIAL, ARENA, EMBASSY, WILDS, SPLEEF, INN, JAIL, FARM
+towny-shop-plots:
+
+  residents:
+   - "COMMERCIAL"
+
+  mayor:
+   - "COMMERCIAL"
+
+  king:
+   - "COMMERCIAL"

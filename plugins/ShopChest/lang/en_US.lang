@@ -30,8 +30,8 @@ message.shopInfo.vendor=&6Vendor: &e%VENDOR%
 message.shopInfo.product=&6Product: &e%AMOUNT% x %ITEMNAME%
 
 # Set the in-stock message the player after entering '/shop info'.
-# Usable regex=%AMOUNT%
-message.shopInfo.stock=&6In Stock: &e%AMOUNT%
+# Usable Placeholders=%STOCK%
+message.shopInfo.stock=&6In Stock: &e%STOCK%
 
 # Set the enchantments message the player gets after entering '/shop info' if the product is enchanted
 # Usable regex: %ENCHANTMENT%
@@ -129,13 +129,13 @@ message.prices-contain-decimals=&cPrices must not contain decimals.
 message.no-item-in-hand=&cNo item in hand
 
 # Set the message when the player must click a chest to create a shop.
-message.click-chest-to-create-shop=&aClick a chest to create a shop.
+message.click-chest-to-create-shop=&aClick a chest within 15 seconds to create a shop.
 
 # Set the message when the player must click a shop to remove it.
-message.click-chest-to-remove-shop=&aClick a shop-chest to remove the shop.
+message.click-chest-to-remove-shop=&aClick a shop-chest within 15 seconds to remove the shop.
 
 # Set the message when the player must click a shop to retrieve information.
-message.click-chest-for-info=&aClick a shop to retrieve information.
+message.click-chest-for-info=&aClick a shop within 15 seconds to retrieve information.
 
 # Set the message when the player opened a shop.
 # Usable regex: %VENDOR%
@@ -251,25 +251,32 @@ message.noPermission.extend-others=&cYou don't have permission to extend this ch
 message.noPermission.extend-protected=&cYou don't have permission to extend this chest to here.
 
 # Set the command description message for '/shop create' when you type '/shop'.
-message.commandDescription.create=Create a shop.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.create=&a/%COMMAND% create <amount> <buy-price> <sell-price> - Create a shop.
 
 # Set the command description message for '/shop remove' when you type '/shop'.
-message.commandDescription.remove=Remove a shop.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.remove=&a/%COMMAND% remove - Remove a shop.
 
 # Set the command description message for '/shop info' when you type '/shop'.
-message.commandDescription.info=Retrieve shop information.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.info=&a/%COMMAND% info - Retrieve shop information.
 
 # Set the command description message for '/shop reload' when you type '/shop'.
-message.commandDescription.reload=Reload shops.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.reload=&a/%COMMAND% reload - Reload shops.
 
 # Set the command description message for '/shop update' when you type '/shop'.
-message.commandDescription.update=Check for Updates.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.update=&a/%COMMAND% update - Check for Updates.
 
 # Set the command description message for '/shop limits' when you type '/shop'.
-message.commandDescription.limits=View shop limits.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.limits=&a/%COMMAND% limits - View shop limits.
 
 # Set the command description message for '/shop config' when you type '/shop'.
-message.commandDescription.config=Change configuration values.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.config=&a/%COMMAND% config <set|add|remove> <property> <value> - Change configuration values
 
 # Set the message a player gets after setting a configuration value per command
 # Usable regex: %PROPERTY%, %VALUE%
@@ -282,6 +289,65 @@ message.config.added=&6Added &a%VALUE% &6to &a%PROPERTY%&6.
 # Set the message a player gets after removing a value from a list in the configuration per command
 # Usable regex: %PROPERTY%, %VALUE%
 message.config.removed=&6Removed &a%VALUE% &6from &a%PROPERTY%&6.
+
+# Set the message when an admin shop is created at the clicked chest.
+# Usable Placeholders: %CREATION-PRICE%
+message.admin-shop-created=&6You were withdrawn &c%CREATION-PRICE% &6to create this admin shop.
+
+# Set the message when all shops of a player were removed.
+# Usable Placeholders: %AMOUNT%, %VENDOR%
+message.all-shops-removed=&6Removed all (&c%AMOUNT%&6) shop/s of &c%VENDOR%&6.
+
+# Usable Placeholders=%STOCK%
+message.shopInfo.stock=&6In Stock: &e%STOCK%
+
+# Set the generation message the player gets after entering '/shop info' if the product is a written book
+# Usable Placeholders: %GENERATION%
+message.shopInfo.book-generation=&6Generation: &e%GENERATION%
+
+# Set the message when a player joins and made a revenue while he was offline.
+# Usable Placeholders: %REVENUE%
+message.revenue-while-offline=&6While you were offline, your shops have made a revenue of &c%REVENUE%&6.
+
+# Set the message when the player must click a shop to open it.
+message.click-chest-to-open-shop=&aClick a shop within 15 seconds to open it.
+
+# Set the message when the entered buy price is below the maximum price.
+# Usable Placeholders: %MAX-PRICE%
+message.buy-price-too-high=&cThe buy price must be lower than %MAX-PRICE%.
+
+# Set the message when the entered sell price is below the maximum price.
+# Usable Placeholders: %MAX-PRICE%
+message.sell-price-too-high=&cThe sell price must be lower than %MAX-PRICE%.
+
+[FONT=Arial]# Set the message when a player tries to buy something in a region/plot that denied shop use.
+message.noPermission.buy-here=&cYou don't have permission to buy something here
+
+# Set the message when a player tries to sell something in a region/plot region that denied shop use.
+message.noPermission.sell-here=&cYou don't have permission to sell something here.
+
+# Set the message when a not permitted player tries to remove an admin shop.
+message.noPermission.remove-admin=&cYou don't have permission to remove an admin shop.
+
+# Set the header of the help message the player gets after entering '/shop' or an invalid command.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.header=&6==== &c/%COMMAND% &6Help
+
+# Set the footer of the help message the player gets after entering '/shop' or an invalid command.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.footer=&6==== End
+
+# Set the command description message for '/shop create' when you type '/shop' and have permission "shopchest.create.admin"
+# Usable Placeholders: %COMMAND%
+message.commandDescription.create-admin=&a/%COMMAND% create <amount> <buy-price> <sell-price> [normal|admin] - Create a shop.
+
+# Set the command description message for '/shop removeall' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.removeall=&a/%COMMAND% removeall - Remove all shops of a player.
+
+# Set the command description message for '/shop open' when you type '/shop'.
+# Usable Placeholders: %COMMAND%
+message.commandDescription.open=&a/%COMMAND% open - Open a shop.[/FONT]
 
 # Effect names that will be displayed in the place of %POTION-EFFECT%
 effect.none=No Effects
