@@ -58,12 +58,7 @@ services:
     broadcast: '{GREEN}{username} {GOLD}has voted @ {GREEN}{service} {GOLD}and received {GREEN}5 Diamonds!'
     playermessage: '{GREEN}Thanks for voting at {AQUA}{service}!'
     commands:
-    - '/give {username} 264 5'
-  MC-Index:
-    broadcast: '{GREEN}{username} {GOLD}has voted @ {GREEN}MC-Index.com {GOLD}and received {GREEN}10 Diamonds!'
-    playermessage: '{GREEN}Thanks for voting at {AQUA}{service}!'
-    commands:
-    - '/give {username} 264 5'
+    - '/eco give {username} 0.25'
 
 #  luckyvotes section
 #  The example below would give a 1 in 10 chance of a voter receiving an extra $1000, and a 1 in 50 chance of an extra $1000 and 100XP.
