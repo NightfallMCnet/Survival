@@ -26,8 +26,8 @@ mysql: true
 # Connection details to database if above is true
 mysql-conn:
   host: localhost
-  user: user
-  pass: pass
+  user: username
+  pass: password
   database: database
   port: 3306
 

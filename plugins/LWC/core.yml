@@ -22,12 +22,12 @@ optional:
     - plr
     useProtectionLimits: true
 database:
-    adapter: sqlite
+    adapter: mysql
     path: plugins/LWC/lwc.db
     host: localhost
-    database: lwc
-    username: ''
-    password: ''
+    database: database
+    username: 'username'
+    password: 'password'
     prefix: lwc_
     ping_interval: 300
 protections:

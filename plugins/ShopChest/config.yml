@@ -128,7 +128,7 @@ database:
 
   # Select the type of database which should be used
   # Either use 'SQLite' or 'MySQL'. Otherwise you will break the plugin!
-  type: "MySQL"
+  type: "SQLite"
 
   # If the specified type is 'MySQL', here you configure the...
   # (You can leave this empty if you're using SQLite)
@@ -139,20 +139,20 @@ database:
     ping-interval: 3600
 
     # ...hostname where the database is accessible
-    hostname: ""
+    hostname: "localhost"
 
     # ...port where the database is accessible (default: 3306)
     port: 3306
 
     # ...database you want to use
-    database: ""
+    database: "database"
 
     # ...username you are going to login with
-    username: ""
+    username: "username"
 
     # ...password you are going to login with
     # Be careful, as anyone who can read this file, can read the password!
-    password: ""
+    password: "password"
 
 # Shop limits are handled with permissions.
 # A player with permission "shopchest.limit.X" has a limit of X shops,

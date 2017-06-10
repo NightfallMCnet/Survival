@@ -16,6 +16,6 @@ mysql:
   enable: true
   host: 'localhost'
   port: 3306
-  database: ''
-  username: ''
-  password: ''
+  database: 'database'
+  username: 'username'
+  password: 'password'

@@ -132,11 +132,11 @@ Backups:
 #  Settings for using a mySQL database
 ###
 MySQL:
-    Enabled: false
+    Enabled: true
     Database:
-        User_Name: UserName
-        User_Password: UserPassword
-        Name: DataBaseName
+        User_Name: username
+        User_Password: password
+        Name: database
         TablePrefix: mcmmo_
         # This setting is the max simultaneous mysql connections allowed at a time, needs to be
         # high enough to support multiple player logins in quick succession

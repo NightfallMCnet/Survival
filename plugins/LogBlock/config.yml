@@ -35,10 +35,10 @@ lookup:
   defaultDist: 20
   linesLimit: 1500
 mysql:
-  password: pass
+  password: password
   host: localhost
   port: 3306
-  database: minecraft
+  database: database
   user: username
 questioner:
   askRollbacks: true

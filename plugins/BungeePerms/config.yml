@@ -29,13 +29,13 @@ allowops: false
 superpermscompat: false
 standalone: false
 debug:
-  path: C:\New Nightfall\Survival\plugins\BungeePerms/debug.log
+  path: plugins\BungeePerms/debug.log
   showexceptions: true
   showlogs: false
 bungeeperms:
   general:
     mysqlhost: localhost
     mysqlport: '3306'
-    mysqldb: bungeeperms
-    mysqluser: bungeeperms
+    mysqldb: database
+    mysqluser: username
     mysqlpw: password

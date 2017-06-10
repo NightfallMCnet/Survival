@@ -41,13 +41,13 @@ settings:
   remindseconds: 300
   ratelimit: 10
   logfile: false
-  dbMode: 'mysql'
+  dbMode: 'sqlite'
   dbFile: 'GAL.db'
   dbHost: 'localhost'
   dbPort: 3306
-  dbUser: 'root'
-  dbPass: ''
-  dbName: 'GAL'
+  dbUser: 'username'
+  dbPass: 'password'
+  dbName: 'database'
   dbPrefix: ''
 
 #  services section (default is used if service doesn't exist)
