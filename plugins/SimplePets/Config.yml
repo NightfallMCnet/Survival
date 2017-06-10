@@ -58,9 +58,19 @@ WorldGuard:
     - spawn
 MySQL:
   Enabled: true
-  Host: host
+  Host: localhost
   Port: '3306'
-  DatabaseName: insert_DatabaseName
+  DatabaseName: database
   Login:
     Username: username
     Password: password
+  _COMMENT_: 'MySQL support is still in beta, so if you find issues report them to:
+    http://pluginwiki.tk/issues/'
+Respawn-Last-Pet-On-Login: true
+Debug:
+  Enabled: false
+  _COMMENT_: 'The Levels are as follows: 0 = Regular Debug, 1 = Warning, 2 = CRITICAL'
+  Levels:
+  - '0'
+  - '1'
+  - '2'

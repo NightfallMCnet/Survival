@@ -15,6 +15,10 @@ Pets:
     Description:
     - Click here to select
     - The Blaze pet.
+    AmbientSound: ENTITY_BLAZE_AMBIENT
+    Float-Down: true
+    Up-Speed: 0.5
+    Float-Speed: 0.5
   Bat:
     Enabled: true
     Hat: true
@@ -31,6 +35,10 @@ Pets:
     Description:
     - Click here to select
     - The Bat pet.
+    AmbientSound: ENTITY_BAT_AMBIENT
+    Float-Down: true
+    Up-Speed: 0.5
+    Float-Speed: 0.5
   Chicken:
     Enabled: true
     Hat: true
@@ -47,6 +55,7 @@ Pets:
     Description:
     - Click here to select
     - The Chicken pet.
+    AmbientSound: ENTITY_CHICKEN_AMBIENT
   Cow:
     Enabled: true
     Hat: true
@@ -63,6 +72,7 @@ Pets:
     Description:
     - Click here to select
     - The Cow pet.
+    AmbientSound: ENTITY_COW_AMBIENT
   Creeper:
     Enabled: true
     Hat: true
@@ -79,6 +89,7 @@ Pets:
     Description:
     - Click here to select
     - The Creeper pet.
+    AmbientSound: ENTITY_CREEPER_HURT
   Enderman:
     Enabled: true
     Hat: true
@@ -95,6 +106,7 @@ Pets:
     Description:
     - Click here to select
     - The Enderman pet.
+    AmbientSound: ENTITY_ENDERMEN_AMBIENT
   Giant:
     Enabled: true
     Hat: true
@@ -111,6 +123,7 @@ Pets:
     Description:
     - Click here to select
     - The Giant pet.
+    AmbientSound: ENTITY_ZOMBIE_AMBIENT
   Horse:
     Enabled: true
     Hat: true
@@ -127,7 +140,9 @@ Pets:
     Description:
     - Click here to select
     - The Horse pet.
-  _Comment_: Ride speed can not be lower than 0.1 due to the fact Minecraft does some Client Side data with already Rideable mobs.
+    AmbientSound: ENTITY_HORSE_AMBIENT
+  _Comment_: Ride speed can not be lower than 0.1 due to the fact Minecraft does some
+    Client Side data with already Rideable mobs.
   IronGolem:
     Enabled: true
     Hat: true
@@ -144,6 +159,7 @@ Pets:
     Description:
     - Click here to select
     - The Iron Golem pet.
+    AmbientSound: ENTITY_IRONGOLEM_STEP
   Mooshroom:
     Enabled: true
     Hat: true
@@ -160,6 +176,7 @@ Pets:
     Description:
     - Click here to select
     - The Mushroom Cow pet.
+    AmbientSound: ENTITY_MOOSHROOM_SHEAR
   Ocelot:
     Enabled: true
     Hat: true
@@ -176,6 +193,7 @@ Pets:
     Description:
     - Click here to select
     - The Ocelot pet.
+    AmbientSound: ENTITY_CAT_AMBIENT
   Pig:
     Enabled: true
     Hat: true
@@ -192,6 +210,7 @@ Pets:
     Description:
     - Click here to select
     - The Pig pet.
+    AmbientSound: ENTITY_PIG_AMBIENT
   Pigman:
     Enabled: true
     Hat: true
@@ -208,6 +227,7 @@ Pets:
     Description:
     - Click here to select
     - The Pig Zombie pet.
+    AmbientSound: ENTITY_ZOMBIE_PIG_AMBIENT
   Rabbit:
     Enabled: true
     Hat: true
@@ -224,6 +244,7 @@ Pets:
     Description:
     - Click here to select
     - The Rabbit pet.
+    AmbientSound: ENTITY_RABBIT_AMBIENT
   Sheep:
     Enabled: true
     Hat: true
@@ -240,6 +261,7 @@ Pets:
     Description:
     - Click here to select
     - The Sheep pet.
+    AmbientSound: ENTITY_SHEEP_AMBIENT
   Silverfish:
     Enabled: true
     Hat: true
@@ -256,6 +278,7 @@ Pets:
     Description:
     - Click here to select
     - The Silverfish pet.
+    AmbientSound: ENTITY_SILVERFISH_AMBIENT
   Skeleton:
     Enabled: true
     Hat: true
@@ -272,6 +295,7 @@ Pets:
     Description:
     - Click here to select
     - The Skeleton pet.
+    AmbientSound: ENTITY_SKELETON_AMBIENT
   SnowMan:
     Enabled: true
     Hat: true
@@ -288,6 +312,7 @@ Pets:
     Description:
     - Click here to select
     - The Snowman pet.
+    AmbientSound: ENTITY_SNOWMAN_AMBIENT
   Spider:
     Enabled: true
     Hat: true
@@ -304,6 +329,7 @@ Pets:
     Description:
     - Click here to select
     - The Spider pet.
+    AmbientSound: ENTITY_SPIDER_AMBIENT
   Villager:
     Enabled: true
     Hat: true
@@ -320,6 +346,7 @@ Pets:
     Description:
     - Click here to select
     - The Villager pet.
+    AmbientSound: ENTITY_VILLAGER_AMBIENT
   Wolf:
     Enabled: true
     Hat: true
@@ -336,6 +363,7 @@ Pets:
     Description:
     - Click here to select
     - The Wolf pet.
+    AmbientSound: ENTITY_WOLF_AMBIENT
   Zombie:
     Enabled: true
     Hat: true
@@ -352,6 +380,7 @@ Pets:
     Description:
     - Click here to select
     - The Zombie pet.
+    AmbientSound: ENTITY_ZOMBIE_AMBIENT
   Squid:
     Enabled: true
     Hat: true
@@ -368,6 +397,7 @@ Pets:
     Description:
     - Click here to select
     - The Squid pet.
+    AmbientSound: ENTITY_SQUID_AMBIENT
   Ghast:
     Enabled: true
     Hat: true
@@ -384,6 +414,10 @@ Pets:
     Description:
     - Click here to select
     - The Ghast pet.
+    AmbientSound: ENTITY_GHAST_AMBIENT
+    Float-Down: true
+    Up-Speed: 0.5
+    Float-Speed: 0.5
   Endermite:
     Enabled: true
     Hat: true
@@ -400,6 +434,7 @@ Pets:
     Description:
     - Click here to select
     - The Endermite pet.
+    AmbientSound: ENTITY_ENDERMITE_AMBIENT
   Wither:
     Enabled: true
     Hat: true
@@ -416,6 +451,7 @@ Pets:
     Description:
     - Click here to select
     - The Wither pet.
+    AmbientSound: ENTITY_WITHER_AMBIENT
   Witch:
     Enabled: true
     Hat: true
@@ -432,6 +468,7 @@ Pets:
     Description:
     - Click here to select
     - The Witch pet.
+    AmbientSound: ENTITY_WITCH_AMBIENT
   PolarBear:
     Enabled: true
     Hat: true
@@ -448,6 +485,7 @@ Pets:
     Description:
     - Click here to select
     - The Polar Bear pet.
+    AmbientSound: ENTITY_POLAR_BEAR_AMBIENT
   Guardian:
     Enabled: true
     Hat: true
@@ -464,6 +502,7 @@ Pets:
     Description:
     - Click here to select
     - The Guardian pet.
+    AmbientSound: ENTITY_GUARDIAN_AMBIENT
   Slime:
     Enabled: true
     Hat: true
@@ -480,6 +519,7 @@ Pets:
     Description:
     - Click here to select
     - The Slime pet.
+    AmbientSound: ENTITY_SLIME_SQUISH
   Stray:
     Enabled: true
     Hat: true
@@ -496,6 +536,7 @@ Pets:
     Description:
     - Click here to select
     - The Stray pet.
+    AmbientSound: ENTITY_SKELETON_AMBIENT
   Vex:
     Enabled: true
     Hat: true
@@ -512,6 +553,10 @@ Pets:
     Description:
     - Click here to select
     - The Vex pet.
+    AmbientSound: ENTITY_VEX_AMBIENT
+    Float-Down: true
+    Up-Speed: 0.5
+    Float-Speed: 0.5
   Llama:
     Enabled: true
     Hat: true
@@ -528,6 +573,7 @@ Pets:
     Description:
     - Click here to select
     - The Llama pet.
+    AmbientSound: ENTITY_LLAMA_AMBIENT
   Evoker:
     Enabled: true
     Hat: true
@@ -544,6 +590,7 @@ Pets:
     Description:
     - Click here to select
     - The Evoker pet.
+    AmbientSound: ENTITY_EVOCATION_ILLAGER_AMBIENT
   Vindicator:
     Enabled: true
     Hat: true
@@ -560,6 +607,7 @@ Pets:
     Description:
     - Click here to select
     - The Vindicator pet.
+    AmbientSound: ENTITY_VINDICATION_ILLAGER_AMBIENT
   Husk:
     Enabled: true
     Hat: true
@@ -576,6 +624,7 @@ Pets:
     Description:
     - Click here to select
     - The Husk pet.
+    AmbientSound: ENTITY_ZOMBIE_AMBIENT
   Mule:
     Enabled: true
     Hat: true
@@ -592,6 +641,7 @@ Pets:
     Description:
     - Click here to select
     - The Mule pet.
+    AmbientSound: ENTITY_MULE_AMBIENT
   ZombieHorse:
     Enabled: true
     Hat: true
@@ -608,6 +658,7 @@ Pets:
     Description:
     - Click here to select
     - The Zombie Horse pet.
+    AmbientSound: ENTITY_ZOMBIE_HORSE_AMBIENT
   SkeletonHorse:
     Enabled: true
     Hat: true
@@ -624,6 +675,7 @@ Pets:
     Description:
     - Click here to select
     - The Skeleton Horse pet.
+    AmbientSound: ENTITY_SKELETON_HORSE_AMBIENT
   MagmaCube:
     Enabled: true
     Hat: true
@@ -640,6 +692,7 @@ Pets:
     Description:
     - Click here to select
     - The Magma Cube pet.
+    AmbientSound: ENTITY_MAGMACUBE_SQUISH
   WitherSkeleton:
     Enabled: true
     Hat: true
@@ -656,6 +709,7 @@ Pets:
     Description:
     - Click here to select
     - The Wither Skeleton pet.
+    AmbientSound: ENTITY_SKELETON_AMBIENT
   ElderGuardian:
     Enabled: true
     Hat: true
@@ -672,6 +726,7 @@ Pets:
     Description:
     - Click here to select
     - The Elder Guardian pet.
+    AmbientSound: ENTITY_ELDER_GUARDIAN_AMBIENT
   CaveSpider:
     Enabled: true
     Hat: true
@@ -688,6 +743,7 @@ Pets:
     Description:
     - Click here to select
     - The Cave Spider pet.
+    AmbientSound: ENTITY_SPIDER_AMBIENT
   ArmorStand:
     Enabled: true
     Hat: true
@@ -704,6 +760,7 @@ Pets:
     Description:
     - Click here to select
     - The Armor Stand pet.
+    AmbientSound: ENTITY_ARMORSTAND_FALL
   Shulker:
     Enabled: true
     Hat: true
@@ -720,3 +777,41 @@ Pets:
     Description:
     - Click here to select
     - The Shulker pet.
+    AmbientSound: ENTITY_SHULKER_AMBIENT
+  Parrot:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: FEATHER
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Parrot Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Parrot
+    AmbientSound: ENTITY_PARROT_STEP
+    Description:
+    - Click here to select
+    - The Parrot pet.
+    Float-Down: true
+    Up-Speed: 0.5
+    Float-Speed: 0.5
+  Illusioner:
+    Enabled: true
+    Hat: true
+    Mount: true
+    DisableItemLore: false
+    ItemData:
+      MaterialWrapper: ENDER_PORTAL_FRAME
+      Durability: 0
+    WalkSpeed: 0.6000000238418579
+    RideSpeed: 0.4000000238418579
+    DefaultName: '&a&l%player%''s Illusioner Pet'
+    DisplayName: '&f&l%name% Pet'
+    NoColorName: Illusioner
+    AmbientSound: ENTITY_ILLUSION_ILLAGER_AMBIENT
+    Description:
+    - Click here to select
+    - The Illusioner pet.

@@ -23,6 +23,7 @@ Data-Menu:
 Pet-Ride:
   Error: '&cWarning: &7Pet Riding is bugged for this pet (Client Side)'
   CancelRide: true
-  _Comment_: This is a Warning message that is sent when a player Rides a mob that is buggy
+  _Comment_: This is a Warning message that is sent when a player Rides a mob that
+    is buggy
 No-Spawning: '&eSimplePets &6>> &cPets are not allowed to be spawned in this region.'
 Pet-No-Enter: '&eSimplePets &6>> &cPets are not allowed in this region.'
