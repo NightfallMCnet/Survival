@@ -14,6 +14,9 @@ plugins/Chairs/sit-disabled.txt
 plugins/dynmap/*.pending
 plugins/Essentials/warps/
 plugins/Essentials/items.csv
+plugins/FastAsyncWorldEdit/de/
+plugins/FastAsyncWorldEdit/history/
+plugins/FastAsyncWorldEdit/ru/
 plugins/GAListener/GAL.db
 plugins/HoloMedals/userdata.yml
 plugins/JSONAPI/users.yml

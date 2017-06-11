@@ -27,6 +27,10 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://www.spigotmc.org/resources/essentialsx.9089/)
   * _Handles AFK, economy, homes, warps, and spawning_
 
+* FastAsyncWorldEdit
+  * [Link](https://www.spigotmc.org/resources/fast-async-worldedit-voxelsniper.13932/)
+  * _Allows WorldEdit to make edits asynchronously to prevent lag and crashes_
+
 * GAListener
   * [Link](https://dev.bukkit.org/projects/give-anything-listener)
   * _Handles distributing vote rewards to players_
