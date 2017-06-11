@@ -29,7 +29,7 @@ allowops: false
 superpermscompat: false
 standalone: false
 debug:
-  path: plugins\BungeePerms/debug.log
+  path: plugins/BungeePerms/debug.log
   showexceptions: true
   showlogs: false
 bungeeperms:
