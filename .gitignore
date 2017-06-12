@@ -17,7 +17,6 @@ plugins/Essentials/items.csv
 plugins/FastAsyncWorldEdit/de/
 plugins/FastAsyncWorldEdit/history/
 plugins/FastAsyncWorldEdit/ru/
-plugins/GAListener/GAL.db
 plugins/HoloMedals/userdata.yml
 plugins/JSONAPI/users.yml
 plugins/LogBlock/materials.yml
@@ -32,5 +31,8 @@ plugins/ShopChest/shops.db
 plugins/TrailGUI/Userdata.yml
 plugins/Updater/
 plugins/Votifier/
+plugins/VotingPlugin/Rewards/ExampleAdvanced.yml
+plugins/VotingPlugin/Rewards/ExampleBasic.yml
+plugins/VotingPlugin/Users.db
 plugins/WorldEdit/sessions/
 plugins/WorldGuard/cache/

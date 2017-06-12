@@ -31,10 +31,6 @@ The source files for the NightfallMC Survival Minecraft server
   * [Link](https://www.spigotmc.org/resources/fast-async-worldedit-voxelsniper.13932/)
   * _Allows WorldEdit to make edits asynchronously to prevent lag and crashes_
 
-* GAListener
-  * [Link](https://dev.bukkit.org/projects/give-anything-listener)
-  * _Handles distributing vote rewards to players_
-
 * HolographicDisplays
   * [Link](https://dev.bukkit.org/projects/holographic-displays)
   * _Enables holograms to be displayed on the server; required for HoloMedals_
@@ -114,6 +110,10 @@ The source files for the NightfallMC Survival Minecraft server
 * Vault
   * [Link](https://dev.bukkit.org/projects/vault)
   * _Permissions and Economy API required by a few plugins that allows other plugins to easily connect to other plugins_
+
+* VotingPlugin
+    * [Link](https://www.spigotmc.org/resources/votingplugin.15358/)
+    * _Handles distributing vote rewards to players_
 
 * WorldEdit
   * [Link](https://dev.bukkit.org/projects/worldedit)
