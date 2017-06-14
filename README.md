@@ -3,10 +3,6 @@
 The source files for the NightfallMC Survival Minecraft server
 
 ## Plugins
-* BungeePerms
-  * [Link](https://www.spigotmc.org/resources/bungeeperms.25/)
-  * _Handles permissions; linked with BungeeCord server's BungeePerms plugin_
-
 * BuycraftX
   * [Link](https://www.spigotmc.org/resources/buycraft.336/)
   * _Handles distribution of donator perks through the Buycraft site_
@@ -54,6 +50,10 @@ The source files for the NightfallMC Survival Minecraft server
 * LogBlockQuestioner
   * [Link](https://github.com/LogBlock/LogBlock/raw/master/LogBlockQuestioner.jar)
   * _Addon to LogBlock to send confirmations to users before making any actions_
+
+* LuckPerms
+  * [Link](https://www.spigotmc.org/threads/luckperms-an-advanced-permissions-plugin.174259/)
+  * _Handles permissions; linked with BungeeCord server's BungeePerms plugin_
 
 * mcMMO
   * [Link](https://www.spigotmc.org/resources/mcmmo.2445/)

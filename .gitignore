@@ -20,6 +20,7 @@ plugins/FastAsyncWorldEdit/ru/
 plugins/HoloMedals/userdata.yml
 plugins/JSONAPI/users.yml
 plugins/LogBlock/materials.yml
+plugins/LuckPerms/lib/
 plugins/LWC/backups/
 plugins/LWC/lwc.db
 plugins/mcMMO/backup/
