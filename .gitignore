@@ -23,6 +23,7 @@ plugins/LogBlock/materials.yml
 plugins/LuckPerms/lib/
 plugins/LWC/backups/
 plugins/LWC/lwc.db
+plugins/LWC/lwc.db.*
 plugins/mcMMO/backup/
 plugins/mcMMO/flatfile/
 plugins/OpenInv/config_old.yml

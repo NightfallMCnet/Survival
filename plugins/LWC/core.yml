@@ -100,6 +100,8 @@ protections:
         trapped_chest:
             autoRegister: private
             enabled: true
+        enchantment_table:
+            enabled: true
         painting:
             autoRegister: private
             enabled: true
@@ -109,7 +111,10 @@ protections:
         hopper_minecart:
             autoRegister: private
             enabled: true
-        banner:
+        standing_banner:
+            autoRegister: private
+            enabled: true
+        wall_banner:
             autoRegister: private
             enabled: true
         chest_minecart:
