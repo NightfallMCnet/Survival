@@ -283,6 +283,7 @@ kits:
       - 269 1
       - 271 1
       - 364 5
+      - 387 1 title:&eRules author:NightfallMC_Staff lore:Rules_of_NightfallMC book:Rules
   dtools:
     delay: 600
     items:

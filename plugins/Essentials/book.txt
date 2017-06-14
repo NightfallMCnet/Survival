@@ -1,0 +1,54 @@
+This is the book file.
+
+This file format works similar to the info.txt, motd.txt and rules.txt
+
+Place content in here that you would like to be used by books ingame.
+
+You can use this content by using the book:<section> meta option in kits or item spawning.
+
+#Colors
+Minecraft colors:
+&0 &&0  &1 &&1  &2 &&2  &3 &&3
+&4 &&4  &5 &&5  &6 &&6  &7 &&7
+&8 &&8  &9 &&9  &a &&a  &b &&b
+&c &&c  &d &&d  &e &&e  &f &&f
+&0 
+&&k &kMagic&r   &&l &lBold
+&&m &mStrike&r  &&n &nUline
+&&o &oItalic&r   &&r &rReset
+#Rules
+Welcome to Nightfall!
+&0 
+We are happy to have you as part of our community. Since Nightfall's founding on March 23, 2012, we have made some great friends, and we hope that you will too! We only have a few rules that we ask you to follow.
+1. No stealing. No griefing.
+&0 
+&0 
+2. No hacks. No cheats. No mods unless approved by staff.
+&0 
+&0 
+3. No abusing glitches in the game.
+&0 
+4. No AFK farming.
+5. No killing or damaging other players in the survival world.
+&0 
+&0 
+6. Keep the server family-friendly. This means no swearing, no drug, alcohol, or sexual references, and no excessively violent content. This applies to chat, books, signs, builds, skins, and usernames. Inappropriate usernames and skins must be changed or face an immediate ban.
+&0 
+&0 
+7. No spamming or excessive CAPS in chat.
+&0 
+8. Respect everyone. This means no bragging, bullying, or being rude.
+&0 
+9. Do not share your or others' personal information on the server.
+&0 
+10. Do not advertise on this server.
+11. Using alternate accounts to evade punishments is prohibited.
+&0 
+&0 
+12. The most important rule: Have fun! :)
+&0 
+&0 
+&0 
+&0 
+&0 
+The Night is waiting...
