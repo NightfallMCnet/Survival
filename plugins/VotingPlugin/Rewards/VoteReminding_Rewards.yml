@@ -1,0 +1,9 @@
+Messages:
+  Player: '&aRemember to vote!'
+Title:
+  Enabled: false
+  Title: '&cRemember to vote!'
+  SubTitle: '&aType /vote'
+  FadeIn: 10
+  ShowTime: 50
+  FadeOut: 10

@@ -325,7 +325,7 @@ Skills:
     Fishing:
         Level_Cap: 1000
         Drops_Enabled: true
-        Override_Vanilla_Treasures: true
+        Override_Vanilla_Treasures: false
         # Always catch fish, even when treasure is found
         Extra_Fish: false
     Herbalism:

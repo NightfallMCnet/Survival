@@ -1,0 +1,201 @@
+Arenas:
+  MA2:
+    enabled: false
+    world: world
+    need-permission: false
+    default-wave-level: Easy
+    disable-pvp: true
+    enable-shop: true
+    gui-item-id: '159:5'
+    gui-item-lore:
+    - '&7Just example of lore'
+    - ' '
+    block-commands: true
+    block-break: false
+    block-place: false
+    item-drop: false
+    item-pickup: false
+    cmds-on-join:
+    - tell %p Hello! Just test command!
+    cmds-on-start:
+    - tell %p Hello! Just test command!
+    cmds-on-end:
+    - tell %p Hello! Just test command!
+    cmds-on-finish:
+    - tell %p Hello! Just test command!
+    allowed-commands:
+    - /money
+    use-kits: true
+    disabled-kits:
+    - None
+    kit-limits:
+    - MyKit:3
+    require-clear-inv: false
+    save-inv: true
+    auto-repair-items: true
+    enter-cost: 0
+    coins-multiplier: 1
+    deaths-per-player: 1
+    spectate-after-death: true
+    randomly-rewards: false
+    rewards-after-death: true
+    rewards-after-leave: true
+    min-players: 1
+    max-players: 10
+    health-regen: true
+    food-lock: true
+    clear-drops: true
+    clear-exp-drop: true
+    slime-split: false
+    freeze-wave-while-not-clear: false
+    freeze-boss-wave-while-not-clear: false
+    clear-wave-before-next: false
+    save-exp: true
+    mobs-limit: 0
+    announce-on-join: true
+    announce-on-end: true
+    time-before-start: 60
+    max-wave: 100
+    timeleft: 20
+    wave-interval: 20
+    scoreboard: true
+    pets-allowed: false
+    waves:
+      every:
+      - 5:Swarm
+      - 10:Hard
+      after:
+      - 25:Extra
+    boss-waves:
+    - 3:Slaughter
+    commands-wave:
+      every:
+        '1':
+        - heal %p
+      after:
+        '5':
+        - give %p 322:1 1
+    rewards:
+      every:
+        '1':
+        - '266:0:1'
+        - '265:0:1'
+        - cmd:heal %p
+        - coins:5
+      after:
+        '5':
+        - '264:0:3'
+    region:
+      point1: -19021.0 , 100.0 , 512.0
+      point2: -18934.0 , 63.0 , 425.0
+    spawner: []
+    containers: []
+    lobby: -18977.541990905465 , 69.0 , 469.26051553821657 , 179.5243 , 6.900044 ,
+      world
+    spawn: -18977.540119420264 , 76.0 , 469.1932251930117 , -179.72627 , -2.2499983
+    leave: 0 , 0 , 0 , 0 , 0
+    spect: -19119.414964491607 , 103.0 , 433.53258044100403 , -89.85072 , 90.0
+  Wither:
+    enabled: false
+    world: world
+    need-permission: false
+    default-wave-level: Easy
+    disable-pvp: true
+    enable-shop: true
+    gui-item-id: '159:5'
+    gui-item-lore:
+    - '&7Just example of lore'
+    - ' '
+    block-commands: true
+    block-break: false
+    block-place: false
+    item-drop: false
+    item-pickup: false
+    cmds-on-join:
+    - tell %p Hello! Just test command!
+    cmds-on-start:
+    - tell %p Hello! Just test command!
+    cmds-on-end:
+    - tell %p Hello! Just test command!
+    cmds-on-finish:
+    - tell %p Hello! Just test command!
+    allowed-commands:
+    - /money
+    use-kits: true
+    disabled-kits:
+    - None
+    kit-limits:
+    - MyKit:3
+    require-clear-inv: false
+    save-inv: true
+    auto-repair-items: true
+    enter-cost: 0
+    coins-multiplier: 1
+    deaths-per-player: 1
+    spectate-after-death: true
+    randomly-rewards: false
+    rewards-after-death: true
+    rewards-after-leave: true
+    min-players: 1
+    max-players: 10
+    health-regen: true
+    food-lock: true
+    clear-drops: true
+    clear-exp-drop: true
+    slime-split: false
+    freeze-wave-while-not-clear: false
+    freeze-boss-wave-while-not-clear: false
+    clear-wave-before-next: false
+    save-exp: true
+    mobs-limit: 0
+    announce-on-join: true
+    announce-on-end: true
+    time-before-start: 60
+    max-wave: 100
+    timeleft: 20
+    wave-interval: 20
+    scoreboard: true
+    pets-allowed: false
+    waves:
+      every:
+      - 5:Swarm
+      - 10:Hard
+      after:
+      - 25:Extra
+    boss-waves:
+    - 3:Slaughter
+    commands-wave:
+      every:
+        '1':
+        - heal %p
+      after:
+        '5':
+        - give %p 322:1 1
+    rewards:
+      every:
+        '1':
+        - '266:0:1'
+        - '265:0:1'
+        - cmd:heal %p
+        - coins:5
+      after:
+        '5':
+        - '264:0:3'
+    region:
+      point1: -19044.0 , 165.0 , 275.0
+      point2: -18959.0 , 64.0 , 192.0
+    spawner:
+    - -19000.581092050066 , 90.0 , 221.89842806285714
+    - -19012.266553324644 , 90.0 , 233.57244978596748
+    - -19000.529458641602 , 90.0 , 245.2995628467467
+    - -18988.527353136178 , 90.0 , 233.56190733067353
+    - -19005.472819773473 , 90.0 , 228.68656372344174
+    - -19005.448478883456 , 90.0 , 238.41099490728251
+    - -18995.494631775808 , 90.0 , 238.38658222153225
+    - -18995.70495310317 , 90.0 , 228.7170726536684
+    containers: []
+    lobby: -19000.472706730758 , 134.0 , 233.57604118019742 , -180.92426 , 12.750021
+      , world
+    spawn: -19000.47324330809 , 90.0 , 221.82744218217007 , -0.024230957 , 1.4997426
+    leave: 0 , 0 , 0 , 0 , 0
+    spect: -19000.544934052294 , 99.0 , 257.68837110717607 , 181.49792 , 12.150016

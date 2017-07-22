@@ -1,4 +1,3 @@
-
 ############# OldCombatMechanics Plugin by gvlfm78 and Rayzr522 #############
 #                                                                           #
 # Bukkit Page: http://dev.bukkit.org/bukkit-plugins/oldcombatmechanics/     #
@@ -12,15 +11,20 @@ update-checker:
   enabled: false
   # Modes: auto, bukkit, spigot
   mode: auto
-
+    
 # Enable the oldcombatmechanics.toggle permission
 # for players to individually /ocm toggle their cooldown
 enableIndividualToggle: false
 
+# List of interactive blocks that right clicking on will be ignored
+# This is for modules such as sword blocking and elytra
+interactive: [enchantment_table,anvil,brewing_stand,trapped_chest,chest,bed,boat,fence_gate,dispenser,dropper,furnace,jukebox,ender_chest,stone_button,wood_button,beacon,tripwire_hook,hopper,daylight_detector,daylight_detector_inverted,item_frame,diode,diode_block_off,diode_block_on,redstone_comparator,redstone_comparator_off,redstone_comparator_on,acacia_door,birch_door,dark_oak_door,jungle_door,spruce_door,wood_door,workbench,bed_block,lever,trap_door,burning_furnace,spruce_fence_gate,birch_fence_gate,jungle_fence_gate,dark_oak_fence_gate,acacia_fence_gate,white_shulker_box,orange_shulker_box,magenta_shulker_box,light_blue_shulker_box,yellow_shulker_box,lime_shulker_box,pink_shulker_box,gray_shulker_box,silver_shulker_box,cyan_shulker_box,purple_shulker_box,blue_shulker_box,brown_shulker_box,green_shulker_box,red_shulker_box,black_shulker_box]
+ 
+
 # To use the per-world feature you specify a list of the worlds in the []
 # For example: (names are case sensitive)
 # worlds: [world,survival,creative,SkyWars]
-# Another example (for 1 world):
+# Another example (for 1 world): 
 # worlds: [bestWorld]
 
 disable-attack-cooldown:
@@ -29,26 +33,26 @@ disable-attack-cooldown:
   worlds: []
   # What to set the attack speed to. Default for 1.9 is 4, at least 16 is needed for no cooldown.
   generic-attack-speed: 24
-
+  
 disable-player-collisions:
   # This is to disable player collisions
-  enabled: false
+  enabled: true
   worlds: []
   # How often the plugin should check that all players have no collisions applied to them
   # This is specified in minutes, but decimals can be used (i.e. 0.5 = 30 seconds)
   collision-check-frequency: 1
-
+  
 disable-sword-sweep:
   # This is to disable the sword sweep attack
   # The particle effect will still be present but will not affect surrounding entities
   enabled: true
   worlds: []
-
+  
 disable-shield-craft:
   # Disable the crafting of shields
   enabled: false
   worlds: []
-
+  
 disable-offhand:
   # Disable the usage of the offhand
   # Won't affect sword-blocking module
@@ -59,22 +63,27 @@ disable-offhand:
   # List of items that should be allowed/not
   # Example: [diamond_sword,BOW]
   items: []
-
+  
 old-brewing-stand:
   # Automatically adds a blaze powder to brewing stand upon opening
-  enabled: false
+  enabled: true
   worlds: []
-
+  
 no-lapis-enchantments:
   # Automatically adds lapis to enchantment tables upon opening
   enabled: false
   worlds: []
-
+  
 disable-elytra:
-  # As players attempt to move around elytra items they get destroyed
+  # Do not allow players to wear elytra
   enabled: false
   worlds: []
-
+  
+disable-enderpearl-cooldown:
+    # Disables enderpearl cooldown
+    enabled: false
+    worlds: []
+  
 old-tool-damage:
   # This is to set the tool damage as in pre-1.9
   # NOTE: this will modify the damage, however on the item tooltip it will still show the 1.9+ damage
@@ -123,9 +132,7 @@ sword-blocking:
   # This is to allow players to block with swords again by getting a shield while they hold right click with a sword
   enabled: false
   worlds: []
-  # List of blocks right-clicking on won't give you a shield
-  excluded: [enchantment_table,anvil,brewing_stand,trapped_chest,chest,bed,boat,fence_gate,dispenser,dropper,furnace,jukebox,ender_chest,stone_button,wood_button,beacon,tripwire_hook,hopper,daylight_detector,daylight_detector_inverted,item_frame,diode,diode_block_off,diode_block_on,redstone_comparator,redstone_comparator_off,redstone_comparator_on,acacia_door,birch_door,dark_oak_door,jungle_door,spruce_door,wood_door,workbench,bed_block,lever,trap_door,burning_furnace,spruce_fence_gate,birch_fence_gate,jungle_fence_gate,dark_oak_fence_gate,acacia_fence_gate,white_shulker_box,orange_shulker_box,magenta_shulker_box,light_blue_shulker_box,yellow_shulker_box,lime_shulker_box,pink_shulker_box,gray_shulker_box,silver_shulker_box,cyan_shulker_box,purple_shulker_box,blue_shulker_box,brown_shulker_box,green_shulker_box,red_shulker_box,black_shulker_box]
-
+   
 old-golden-apples:
   # This is to change the behaviour / crafting of golden apples to how it was in pre-1.9
   enabled: true
@@ -176,7 +183,7 @@ old-fishing-knockback:
   # Whether the EntityDamageEvent should be used instead of the EntityDamageByEntityEvent
   # Set to true when using plugins like NCP that check range
   useEntityDamageEvent: false
-
+  
 projectile-knockback:
   # This adds knockback and/or damage to players when they get hit by snowballs, eggs & enderpearls
   # This has been a Bukkit bug for so long people thought it was vanilla when it was recently patched
@@ -235,13 +242,13 @@ old-armour-strength:
     DIAMOND_CHESTPLATE: 8
     DIAMOND_LEGGINGS: 6
     DIAMOND_BOOTS: 3
-
+    
 disable-projectile-randomness:
   # This is to remove projectile randomness while firing arrows with a bow
   # This is actually a very old feature and has been in the game for quite some time
   enabled: false
   worlds: []
-
+    
 disable-bow-boost:
   # This is to stop players from boosting themselves forward by hitting themselves
   # while running with a punch II arrow from their bow
@@ -252,18 +259,18 @@ disable-bow-boost:
 ################################
 #### SPECIAL SETTINGS BELOW ####
 ################################
-
+  
 # This enables debug messages, only enable when troubleshooting
 debug:
   enabled: false
 
 # DON'T EVER EVER EVER CHANGE THIS UNLESS YOU KNOW WHAT YOU'RE DOING (It will reset the config if you don't have it at the right number)
-config-version: 16
+config-version: 18
 
 # Not added yet
 old-potion-effects:
   # This is to restore the 1.8 potion effects before they were nerfed
-  enabled: true
+  enabled: false
   # Poison potion II
   8228:
     poison:

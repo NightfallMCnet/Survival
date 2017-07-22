@@ -5,3 +5,6 @@ notify:
   silent-chest: true
 settings:
   disable-saving: false
+toggles:
+  silent-chest:
+    9c06ba61-8ca8-4420-aa83-03c80501c192: false

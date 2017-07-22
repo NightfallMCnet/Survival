@@ -19,6 +19,7 @@ Pets:
     Float-Down: true
     Up-Speed: 0.5
     Float-Speed: 0.5
+    Fly: true
   Bat:
     Enabled: true
     Hat: true
@@ -39,6 +40,7 @@ Pets:
     Float-Down: true
     Up-Speed: 0.5
     Float-Speed: 0.5
+    Fly: true
   Chicken:
     Enabled: true
     Hat: true
@@ -56,6 +58,7 @@ Pets:
     - Click here to select
     - The Chicken pet.
     AmbientSound: ENTITY_CHICKEN_AMBIENT
+    Fly: false
   Cow:
     Enabled: true
     Hat: true
@@ -73,6 +76,7 @@ Pets:
     - Click here to select
     - The Cow pet.
     AmbientSound: ENTITY_COW_AMBIENT
+    Fly: false
   Creeper:
     Enabled: true
     Hat: true
@@ -90,6 +94,7 @@ Pets:
     - Click here to select
     - The Creeper pet.
     AmbientSound: ENTITY_CREEPER_HURT
+    Fly: false
   Enderman:
     Enabled: true
     Hat: true
@@ -107,6 +112,7 @@ Pets:
     - Click here to select
     - The Enderman pet.
     AmbientSound: ENTITY_ENDERMEN_AMBIENT
+    Fly: false
   Giant:
     Enabled: true
     Hat: true
@@ -124,6 +130,7 @@ Pets:
     - Click here to select
     - The Giant pet.
     AmbientSound: ENTITY_ZOMBIE_AMBIENT
+    Fly: false
   Horse:
     Enabled: true
     Hat: true
@@ -141,6 +148,7 @@ Pets:
     - Click here to select
     - The Horse pet.
     AmbientSound: ENTITY_HORSE_AMBIENT
+    Fly: false
   _Comment_: Ride speed can not be lower than 0.1 due to the fact Minecraft does some
     Client Side data with already Rideable mobs.
   IronGolem:
@@ -160,6 +168,7 @@ Pets:
     - Click here to select
     - The Iron Golem pet.
     AmbientSound: ENTITY_IRONGOLEM_STEP
+    Fly: false
   Mooshroom:
     Enabled: true
     Hat: true
@@ -177,6 +186,7 @@ Pets:
     - Click here to select
     - The Mushroom Cow pet.
     AmbientSound: ENTITY_MOOSHROOM_SHEAR
+    Fly: false
   Ocelot:
     Enabled: true
     Hat: true
@@ -194,6 +204,7 @@ Pets:
     - Click here to select
     - The Ocelot pet.
     AmbientSound: ENTITY_CAT_AMBIENT
+    Fly: false
   Pig:
     Enabled: true
     Hat: true
@@ -211,6 +222,7 @@ Pets:
     - Click here to select
     - The Pig pet.
     AmbientSound: ENTITY_PIG_AMBIENT
+    Fly: false
   Pigman:
     Enabled: true
     Hat: true
@@ -228,6 +240,7 @@ Pets:
     - Click here to select
     - The Pig Zombie pet.
     AmbientSound: ENTITY_ZOMBIE_PIG_AMBIENT
+    Fly: false
   Rabbit:
     Enabled: true
     Hat: true
@@ -245,6 +258,7 @@ Pets:
     - Click here to select
     - The Rabbit pet.
     AmbientSound: ENTITY_RABBIT_AMBIENT
+    Fly: false
   Sheep:
     Enabled: true
     Hat: true
@@ -262,6 +276,7 @@ Pets:
     - Click here to select
     - The Sheep pet.
     AmbientSound: ENTITY_SHEEP_AMBIENT
+    Fly: false
   Silverfish:
     Enabled: true
     Hat: true
@@ -279,6 +294,7 @@ Pets:
     - Click here to select
     - The Silverfish pet.
     AmbientSound: ENTITY_SILVERFISH_AMBIENT
+    Fly: false
   Skeleton:
     Enabled: true
     Hat: true
@@ -296,6 +312,7 @@ Pets:
     - Click here to select
     - The Skeleton pet.
     AmbientSound: ENTITY_SKELETON_AMBIENT
+    Fly: false
   SnowMan:
     Enabled: true
     Hat: true
@@ -313,6 +330,7 @@ Pets:
     - Click here to select
     - The Snowman pet.
     AmbientSound: ENTITY_SNOWMAN_AMBIENT
+    Fly: false
   Spider:
     Enabled: true
     Hat: true
@@ -330,6 +348,7 @@ Pets:
     - Click here to select
     - The Spider pet.
     AmbientSound: ENTITY_SPIDER_AMBIENT
+    Fly: false
   Villager:
     Enabled: true
     Hat: true
@@ -347,6 +366,7 @@ Pets:
     - Click here to select
     - The Villager pet.
     AmbientSound: ENTITY_VILLAGER_AMBIENT
+    Fly: false
   Wolf:
     Enabled: true
     Hat: true
@@ -364,6 +384,7 @@ Pets:
     - Click here to select
     - The Wolf pet.
     AmbientSound: ENTITY_WOLF_AMBIENT
+    Fly: false
   Zombie:
     Enabled: true
     Hat: true
@@ -381,6 +402,7 @@ Pets:
     - Click here to select
     - The Zombie pet.
     AmbientSound: ENTITY_ZOMBIE_AMBIENT
+    Fly: false
   Squid:
     Enabled: true
     Hat: true
@@ -398,6 +420,7 @@ Pets:
     - Click here to select
     - The Squid pet.
     AmbientSound: ENTITY_SQUID_AMBIENT
+    Fly: false
   Ghast:
     Enabled: true
     Hat: true
@@ -418,6 +441,7 @@ Pets:
     Float-Down: true
     Up-Speed: 0.5
     Float-Speed: 0.5
+    Fly: true
   Endermite:
     Enabled: true
     Hat: true
@@ -435,6 +459,7 @@ Pets:
     - Click here to select
     - The Endermite pet.
     AmbientSound: ENTITY_ENDERMITE_AMBIENT
+    Fly: false
   Wither:
     Enabled: true
     Hat: true
@@ -452,6 +477,7 @@ Pets:
     - Click here to select
     - The Wither pet.
     AmbientSound: ENTITY_WITHER_AMBIENT
+    Fly: false
   Witch:
     Enabled: true
     Hat: true
@@ -469,6 +495,7 @@ Pets:
     - Click here to select
     - The Witch pet.
     AmbientSound: ENTITY_WITCH_AMBIENT
+    Fly: false
   PolarBear:
     Enabled: true
     Hat: true
@@ -486,6 +513,7 @@ Pets:
     - Click here to select
     - The Polar Bear pet.
     AmbientSound: ENTITY_POLAR_BEAR_AMBIENT
+    Fly: false
   Guardian:
     Enabled: true
     Hat: true
@@ -503,6 +531,7 @@ Pets:
     - Click here to select
     - The Guardian pet.
     AmbientSound: ENTITY_GUARDIAN_AMBIENT
+    Fly: false
   Slime:
     Enabled: true
     Hat: true
@@ -520,6 +549,7 @@ Pets:
     - Click here to select
     - The Slime pet.
     AmbientSound: ENTITY_SLIME_SQUISH
+    Fly: false
   Stray:
     Enabled: true
     Hat: true
@@ -537,6 +567,7 @@ Pets:
     - Click here to select
     - The Stray pet.
     AmbientSound: ENTITY_SKELETON_AMBIENT
+    Fly: false
   Vex:
     Enabled: true
     Hat: true
@@ -557,6 +588,7 @@ Pets:
     Float-Down: true
     Up-Speed: 0.5
     Float-Speed: 0.5
+    Fly: true
   Llama:
     Enabled: true
     Hat: true
@@ -574,6 +606,7 @@ Pets:
     - Click here to select
     - The Llama pet.
     AmbientSound: ENTITY_LLAMA_AMBIENT
+    Fly: false
   Evoker:
     Enabled: true
     Hat: true
@@ -591,6 +624,7 @@ Pets:
     - Click here to select
     - The Evoker pet.
     AmbientSound: ENTITY_EVOCATION_ILLAGER_AMBIENT
+    Fly: false
   Vindicator:
     Enabled: true
     Hat: true
@@ -608,6 +642,7 @@ Pets:
     - Click here to select
     - The Vindicator pet.
     AmbientSound: ENTITY_VINDICATION_ILLAGER_AMBIENT
+    Fly: false
   Husk:
     Enabled: true
     Hat: true
@@ -625,6 +660,7 @@ Pets:
     - Click here to select
     - The Husk pet.
     AmbientSound: ENTITY_ZOMBIE_AMBIENT
+    Fly: false
   Mule:
     Enabled: true
     Hat: true
@@ -642,6 +678,7 @@ Pets:
     - Click here to select
     - The Mule pet.
     AmbientSound: ENTITY_MULE_AMBIENT
+    Fly: false
   ZombieHorse:
     Enabled: true
     Hat: true
@@ -659,6 +696,7 @@ Pets:
     - Click here to select
     - The Zombie Horse pet.
     AmbientSound: ENTITY_ZOMBIE_HORSE_AMBIENT
+    Fly: false
   SkeletonHorse:
     Enabled: true
     Hat: true
@@ -676,6 +714,7 @@ Pets:
     - Click here to select
     - The Skeleton Horse pet.
     AmbientSound: ENTITY_SKELETON_HORSE_AMBIENT
+    Fly: false
   MagmaCube:
     Enabled: true
     Hat: true
@@ -693,6 +732,7 @@ Pets:
     - Click here to select
     - The Magma Cube pet.
     AmbientSound: ENTITY_MAGMACUBE_SQUISH
+    Fly: false
   WitherSkeleton:
     Enabled: true
     Hat: true
@@ -710,6 +750,7 @@ Pets:
     - Click here to select
     - The Wither Skeleton pet.
     AmbientSound: ENTITY_SKELETON_AMBIENT
+    Fly: false
   ElderGuardian:
     Enabled: true
     Hat: true
@@ -727,6 +768,7 @@ Pets:
     - Click here to select
     - The Elder Guardian pet.
     AmbientSound: ENTITY_ELDER_GUARDIAN_AMBIENT
+    Fly: false
   CaveSpider:
     Enabled: true
     Hat: true
@@ -744,6 +786,7 @@ Pets:
     - Click here to select
     - The Cave Spider pet.
     AmbientSound: ENTITY_SPIDER_AMBIENT
+    Fly: false
   ArmorStand:
     Enabled: true
     Hat: true
@@ -761,6 +804,7 @@ Pets:
     - Click here to select
     - The Armor Stand pet.
     AmbientSound: ENTITY_ARMORSTAND_FALL
+    Fly: false
   Shulker:
     Enabled: true
     Hat: true
@@ -778,6 +822,7 @@ Pets:
     - Click here to select
     - The Shulker pet.
     AmbientSound: ENTITY_SHULKER_AMBIENT
+    Fly: false
   Parrot:
     Enabled: true
     Hat: true
@@ -798,6 +843,7 @@ Pets:
     Float-Down: true
     Up-Speed: 0.5
     Float-Speed: 0.5
+    Fly: true
   Illusioner:
     Enabled: true
     Hat: true
@@ -815,3 +861,4 @@ Pets:
     Description:
     - Click here to select
     - The Illusioner pet.
+    Fly: false

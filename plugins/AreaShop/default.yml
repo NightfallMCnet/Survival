@@ -124,7 +124,7 @@ general:
   ##### Save and restore schematics to clean up regions.
   # After 'save:' or 'restore:' you enter the name of the file to restore from/to (.schematic is added automatically).
   # Set to true to enable saving/restoring for regions as specified in the profile below, which is specified in the config.
-  enableRestore: false
+  enableRestore: true
   schematicProfile:
     created:
       save: '%type%-%region%'
@@ -196,7 +196,7 @@ rent:
   maxExtends: -1
   # The Maximum time they can have the region rented in advance (use times like '1 day' etc, or 'unlimited' for no limit).
   # This can prevent players from renting their region for a year, and to ensure they periodically have to extend their rent.
-  maxRentTime: 'unlimited'
+  maxRentTime: '4 weeks'
   # Automatically unrent the region after the specified time between the last login time of the renter and the current time.
   # Use times like '1 day' etc, or 'disabled' for never.
   inactiveTimeUntilUnrent: 'disabled'

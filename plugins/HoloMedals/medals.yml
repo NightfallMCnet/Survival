@@ -1,0 +1,151 @@
+SecretSanta:
+  displayText: §cSecret Santa
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §fSkull of SantaClaus
+      internal: H4sIAAAAAAAAAONiYOBi4AnOLs3JCSjKT8vMSeVgYPFLzE1l4ApOzCtJdM5JLC1mYAAAuMVjTCcAAAA=
+      skull-owner: SantaClaus
+Christmas2016:
+  displayText: §f❄ §cChristmas 2016 §f❄
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §fSkull of MHF_SnowGolem
+      internal: H4sIAAAAAAAAAONiYOBi4AnOLs3JCSjKT8vMSeVgYPFLzE1l4PX1cIsPzssvd8/PSc1lYAAA57cf8yoAAAA=
+      skull-owner: MHF_SnowGolem
+DragonSlayer:
+  displayText: §c➵ §5Dragon Slayer §c⚔
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 5
+Citizen+:
+  displayText: §2Citizen+
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+VIP:
+  displayText: §bVIP
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: GOLD_INGOT
+VIP+:
+  displayText: §3VIP+
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+MVP:
+  displayText: §9MVP
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+Veteran:
+  displayText: §7✧ §6Veteran §7✧
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: NETHER_STAR
+WitherKiller:
+  displayText: §0Wither §7⚔ §0Killer
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 1
+MasterBuilder:
+  displayText: §eMaster §6⚒ §eBuilder
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: BRICK
+Donator:
+  displayText: §eDonator
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SPECKLED_MELON
+Eggsecutor:
+  displayText: §5The Eggsecutor
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DRAGON_EGG
+GlitchBusters:
+  displayText: §2§k0§r §aGlitchBusters §2§k0§r
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: COMMAND
+Axes:
+  displayText: §2And My Axe!
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+Taming:
+  displayText: Top Dog
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: BONE
+Mining:
+  displayText: §eCalifornia
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+Swords:
+  displayText: §bStab Happy
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+Acrobatics:
+  displayText: §9Hardcore Parkour
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+Excavation:
+  displayText: §6Indiana Jones
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SPADE
+Archery:
+  displayText: §cArrow to the Knee
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+Woodcutting:
+  displayText: §4Lumberjack
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: LOG
+Fishing:
+  displayText: §1Sinker
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: FISHING_ROD
+Alchemy:
+  displayText: §8Fullmetal
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: BREWING_STAND_ITEM
+Herbalism:
+  displayText: §aGreen Thumb
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: SEEDS
+Unarmed:
+  displayText: §6Death Punch
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: RABBIT_FOOT
+Repair:
+  displayText: §7Megaton
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: ANVIL
+MCMMO:
+  displayText: §5It's Over 9000!!!
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: TOTEM

@@ -1,11 +1,11 @@
+
 #
 #  Experience configuration
-#  Last updated on 1.5.07-SNAPSHOT-b${BUILD_NUMBER}
+#  Last updated on 1.5.08-SNAPSHOT-b${BUILD_NUMBER}
 #
 #  Configure the experience formula and experience settings here.
 #
 #####
-
 #
 #  Settings for XP formula
 ###
@@ -15,31 +15,26 @@ Experience_Formula:
     # LINEAR:      base + (level * multiplier)
     # EXPONENTIAL: multiplier * level ^ exponent + base
     Curve: LINEAR
-
     # If invalid values are entered mcMMO will not start and print an error in the console
     Linear_Values:
         base: 1020
         multiplier: 20
     Exponential_Values:
         multiplier: 0.1
-        exponent: 1.80
+        exponent: 1.8
         base: 2000
-
     # Cumulative experience curves will use a players power level instead of their skill level,
     # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
     Cumulative_Curve: false
-
     # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     Multiplier:
         Global: 1.0
         PVP: 1.0
-
     # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     Mobspawners:
         Multiplier: 0
     Breeding:
         Multiplier: 1.0
-
     # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     Modifier:
         Swords: 1.0
@@ -55,18 +50,15 @@ Experience_Formula:
         Repair: 1.0
         Fishing: 1.0
         Alchemy: 1.0
-
     # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
     # with 1.25 by default, resulting in a 25% XP boost
     Custom_XP_Perk:
         Boost: 1.25
-
 #
 # Settings for Diminished Returns
 ###
 Diminished_Returns:
     Enabled: false
-
     # Limit the amount of experience a player can earn:
     # Threshold (amount of experience) per Time_Interval (in minutes)
     Threshold:
@@ -83,16 +75,13 @@ Diminished_Returns:
         Repair: 20000
         Fishing: 20000
         Alchemy: 20000
-
     Time_Interval: 10
-
 #
 #  Settings for XP conversion with '/mcconvert experience'
 ###
 Conversion:
     # Old experience will get divided by this modifier
     Exp_Modifier: 1
-
 #
 #  Settings for XP distribution
 ###
@@ -103,7 +92,6 @@ Experience:
         Dodge: 120
         Roll: 80
         Fall: 120
-
         # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
         FeatherFall_Multiplier: 2.0
     Alchemy:
@@ -148,6 +136,8 @@ Experience:
         Redwood: 80
         Huge_Mushroom_Red: 70
         Huge_Mushroom_Brown: 70
+        Huge_Mushroom_2: 70
+        Huge_Mushroom_1: 70
     Herbalism:
         Allium: 300
         Azure_Bluet: 150
@@ -184,6 +174,12 @@ Experience:
         Water_Lily: 100
         White_Tulip: 150
         Yellow_Flower: 100
+        Potato_Ungrown: 0
+        Crops_Ungrown: 0
+        Cocoa_Ungrown: 0
+        Nether_Warts_Ungrown: 0
+        Beetroot_Block_Ungrown: 0
+        Carrot_Ungrown: 0
     Mining:
         Coal_Ore: 100
         Diamond_Ore: 750
@@ -262,7 +258,6 @@ Experience:
             Endermite: 2.0
             Guardian: 3.0
             Elder_Guardian: 4.0
-            Shulker: 2.0
             Donkey: 1.0
             Mule: 1.0
             Horse: 1.0
@@ -287,3 +282,5 @@ Experience:
             Ocelot: 1.0
             Villager: 1.0
             Snowman: 0.0
+            Illusioner: 3.0
+            Parrot: 1.0

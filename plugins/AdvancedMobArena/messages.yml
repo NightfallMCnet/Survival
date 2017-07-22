@@ -18,7 +18,8 @@ ArenaInGame: Arena &a%arena% &7is already in game. You can not join now.
 AlreadyInGame: You are already in game!
 ArenaIsRecovering: Arena is recovering. You cant join now.
 NoArenas: There are no available arenas.
-OutsideFromArena: You are in outside of the arena region. You automaticly left the game.
+OutsideFromArena: You are in outside of the arena region. You automaticly left the
+  game.
 NeedClearInv: Your inventory must be empty to join on this arena!
 NeedPlayersToStart: 'Minimum players to start: &c%amount%'
 NotEnterMoney: You dont have enought money to enter on the arena &a%arena%&7!
@@ -36,8 +37,10 @@ LeaveWait: You cant leave right now. Please wait until first arena wave starts.
 Death: You died.
 Lives: 'You died. Lives lost: &c%s%&7. Be more careful!'
 PlayerDied: '&c%player%&7 has been killed ;( Players left: &a%players%'
-AnnounceJoin: Arena &a%arena% &7will start in &2%time% &7seconds. Type &a/ama join &a%arena% &7for join!
-AnnounceEnd: Game on the arena &a%arena% &7is ended. Type &a/ama join &a%arena% &7for play!
+AnnounceJoin: Arena &a%arena% &7will start in &2%time% &7seconds. Type &a/ama join
+  &a%arena% &7for join!
+AnnounceEnd: Game on the arena &a%arena% &7is ended. Type &a/ama join &a%arena% &7for
+  play!
 KitChestSet: Setted the chest for kit &a%kit%&7!
 KitDisabled: This kit is disabled on this arena.
 KitCreated: Created a new kit &a%kit%&7. You can change it using &a/ama kit editor&7.
@@ -84,8 +87,8 @@ Signs:
   Ingame: '&2&nIN-GAME&0 %w/%fw'
   ArenaJoin: '&2&n%arena%'
   ArenaIngame: '&4&n%arena%'
-  KitLine: '&nClick to select kit!'
-  KitNameLine: '&nKit:&r &2&n%kit%'
+  KitLine: '&nClass'
+  KitNameLine: '&n%kit%'
   KitCostLine: '&nCost:&r &4&n%cost%'
   LeaveLine: '&4&nClick to leave...'
   ShopLine: '&nClick to open!'
@@ -625,3 +628,6 @@ ItemNames:
   WRITTEN_BOOK: Written book
   YELLOW_FLOWER: Yellow flower
   YELLOW_SHULKER_BOX: Yellow shulker box
+KitLimit: You can not use this kit, because there is already a maximum allowed number
+  of players with this kit.
+NoPets: This arena is not allows to bring pets. Your pet gone home.

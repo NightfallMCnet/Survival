@@ -1,38 +1,82 @@
 VoteSites:
-  # VoteSite name
-  ExampleVoteSite:
-    # Enable voteSite
-    # If false, votesite will not be loaded by plugin
-    # Default: false
-    Enabled: false
-    
-    # Display name of voting site
-    Name: 'ExampleVoteSite'
-          
-    # Priority of this site
-    # Used for sorted list
-    # High prority, higher on the list
-    Priority: 5
-          
-    # The serviceName from the vote, has to be correct to work correctly
-    # Gotten from voting on the site (will be in console/log)
-    # Usually is the main part of the url(e.g. PlanetMinecraft.com)
-    ServiceSite: 'PlanetMinecraft.com'
-
-    # vote url for /vote
-    # Format for this can be set in Format.yml
-    # Do not include colors here
-    VoteURL: 'link to vote URL here, used in /vote'
-
-    # Time between votes in hours (used for /vote next)
-    # Most sites are 24 hours
+  PlanetMinecraft:
+    Enabled: true
+    Name: Planet Minecraft
+    Priority: 2
+    ServiceSite: PlanetMinecraft.com
+    VoteURL: https://www.planetminecraft.com/server/nightfallmc-3892014/
     VoteDelay: 24
-    
-    # VoteSite Material for GUI's
     Item:
-      Material: 'DIAMOND'
+      Material: DIAMOND
       Amount: 1
-
-    # List of reward files to give to voter
     Rewards:
-    - 'ExampleReward'
+      Money: 10
+      Messages:
+        Player: '&aThank you for voting on %ServiceSite%!'
+  TopG:
+    Enabled: true
+    Name: TopG
+    Priority: 1
+    ServiceSite: TopG.org
+    VoteURL: http://topg.org/server-nightfallmc-id452568
+    VoteDelay: 24
+    Item:
+      Material: DIAMOND
+      Amount: 1
+    Rewards:
+      Money: 10
+      Messages:
+        Player: '&aThank you for voting on %ServiceSite%!'
+  MinecraftList:
+    Enabled: true
+    Name: MinecraftList
+    Priority: 4
+    ServiceSite: MinecraftList.org
+    VoteURL: https://minecraftlist.org/server/5581
+    VoteDelay: 24
+    Item:
+      Material: DIAMOND
+      Amount: 1
+    Rewards:
+      Money: 10
+      Messages:
+        Player: '&aThank you for voting on %ServiceSite%!'
+  MinecraftServersDotOrg:
+    Enabled: true
+    Name: MinecraftServers.org
+    Priority: 5
+    ServiceSite: MinecraftServers.org
+    VoteURL: http://minecraftservers.org/server/414009
+    VoteDelay: 24
+    Item:
+      Material: DIAMOND
+      Amount: 1
+    Rewards:
+      Money: 10
+      Messages:
+        Player: '&aThank you for voting on %ServiceSite%!'
+  MinecraftMultiplayer:
+    Enabled: true
+    Name: Minecraft Multiplayer
+    Priority: 6
+    ServiceSite: Minecraft Multiplayer
+    VoteURL: http://minecraft-mp.com/server-s166737
+    VoteDelay: 24
+    Item:
+      Material: DIAMOND
+      Amount: 1
+    Rewards:
+      Money: 10
+      Messages:
+        Player: '&aThank you for voting on %ServiceSite%!'
+  MinecraftServersList:
+    Enabled: true
+    Name: MinecraftServersList
+    Priority: 3
+    ServiceSite: MinecraftServersList
+    VoteURL: http://www.minecraft-servers-list.org/details/NightfallMC/
+    VoteDelay: 24
+    Rewards:
+      Money: 10
+      Messages:
+        Player: '&aThank you for voting on %ServiceSite%!'

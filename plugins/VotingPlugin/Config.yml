@@ -70,7 +70,7 @@ VoteReminding:
   # Can add titles and more in the reward file
   Rewards:
     Messages:
-      Player: '&aRemeber to vote!'
+      Player: '&aRemember to vote!'
     Title:
       Enabled: false
       Title: '&cRemember to vote!'
@@ -125,7 +125,7 @@ Format:
     # %url% = site URL
     Vote:
       Text:
-      - '&4&lVote for our server!'
+      - '&2&lVote for our server!'
 
       # If you want to want to use the feature below where the plugin will
       # automaticly list the sites then set the message in the text above
@@ -134,7 +134,7 @@ Format:
       # make sure to set VoteURL in your VoteSites
       # Requires above to be true
       # Text will be sent before this
-      Sites: '&4%num%: &c&l%SiteName% - &c%url%'
+      Sites: '&2%num%: &a&l%SiteName% - &a%url%'
 
       # Format for /vote next
       Next:

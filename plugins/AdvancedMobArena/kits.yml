@@ -1,50 +1,21 @@
 # Kits file
 Kits:
-  # Name of the kit
   Knight:
-    # Need to give a kit when player didn't select it self.
     Default: true
-    # Description for GUI item.
     Desc:
     - '&7Basic kit. More damage, but lower armored.'
     ItemGUI: '276:0'
-    # If you want that kit will be payable
     Cost: 0
-    # If you want to use kit can only players with perms.
-    # Permission will be: ama.kit.<kit_name> CaSe SeNsEtIvE!
     Permission: false
-    # Amount of wolves that will be summoned to player.
-    # Wolves will be fight with arena mobs.
-    # Set to 0 for disable.
     Wolves: 0
-    # If 'true' player will receive a horse on the arena start
     Mount: false
-    # If you want to use items with NBT tags or something like this and
-    # the default item parser doesn't support these items set it to true
-    # and the items will be copied from a chest to player's inventory after
     ChestKit: false
-    # choose this kit
-    # Location for chest with items of a kit
     ChestKitLoc:
       x: 0.0
       y: 0.0
       z: 0.0
       w: world
-    # Item list
     Content:
-      # POTION SYNTAX:
-      # FOR 1.9+:
-      #   FOR SIMPLE POTION: '<POTION_EFFECT_NAME + _POTION>:0:AMOUNT'  EXAMPLE: 'HEAL_POTION:0:3'
-      #   FOR SPLASH POTION: '<POTION_EFFECT_NAME + _SPLASH>:0:AMOUNT'  EXAMPLE: 'HEAL_SPLASH:0:3'
-      #
-      # FOR 1.8:
-      #   '<ID>:<DATA>:<AMOUNT>' EXAMPLE: '373:8264:5'
-      #
-      # ENCHANTS SYNTAX:
-      #   '<ITEMID>:<DATAID>:<AMOUNT> <ENCHANT_ID>:<LEVEL> <ENCHANT_ID>:<LEVEL>' etc
-      #
-      # NAMES AND LORE SYNTAX:
-      #   '<ITEMID>:<DATAID>:<AMOUNT> <ENCHANT_ID>:<LEVEL> name:&eMy_Item lore:&dTest_lore|&eNew_Line'
       Armor:
       - '306:0:1'
       - '307:0:1'
@@ -87,11 +58,11 @@ Kits:
     Permission: false
     Wolves: 0
     Mount: false
-    ChestKit: false
+    ChestKit: true
     ChestKitLoc:
-      x: 0.0
-      y: 0.0
-      z: 0.0
+      x: -18997
+      y: 138
+      z: 232
       w: world
     Content:
       Armor:
@@ -102,7 +73,7 @@ Kits:
       Inventory:
       - '268:0:1'
       - '261:0:1'
-      - '262:0:256'
+      - 262:0:256
       - '351:4:18'
   Healer:
     Default: false
@@ -113,11 +84,11 @@ Kits:
     Permission: false
     Wolves: 0
     Mount: false
-    ChestKit: false
+    ChestKit: true
     ChestKitLoc:
-      x: 0.0
-      y: 0.0
-      z: 0.0
+      x: -18997
+      y: 138
+      z: 234
       w: world
     Content:
       Armor:
@@ -190,11 +161,11 @@ Kits:
     Permission: false
     Wolves: 0
     Mount: false
-    ChestKit: false
+    ChestKit: true
     ChestKitLoc:
-      x: 0.0
-      y: 0.0
-      z: 0.0
+      x: -19005
+      y: 138
+      z: 234
       w: world
     Content:
       Armor:

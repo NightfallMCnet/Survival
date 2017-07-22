@@ -25,7 +25,7 @@ regions:
         keep-names-that-lack-uuids: false
     use-creature-spawn-event: true
     sql:
-        use: true
+        use: false
         dsn: jdbc:mysql://localhost/worldguard
         username: worldguard
         password: worldguard
@@ -90,16 +90,16 @@ ignition:
     block-lighter: false
 fire:
     disable-lava-fire-spread: true
-    disable-all-fire-spread: false
+    disable-all-fire-spread: true
     disable-fire-spread-blocks: []
     lava-spread-blocks: []
 mobs:
     block-creeper-explosions: false
     block-creeper-block-damage: true
     block-wither-explosions: false
-    block-wither-block-damage: true
+    block-wither-block-damage: false
     block-wither-skull-explosions: false
-    block-wither-skull-block-damage: true
+    block-wither-skull-block-damage: false
     block-enderdragon-block-damage: true
     block-enderdragon-portal-creation: false
     block-fireball-explosions: false
@@ -129,7 +129,7 @@ player-damage:
     teleport-on-void-falling: false
     disable-explosion-damage: false
     disable-mob-damage: false
-    disable-death-messages: true
+    disable-death-messages: false
 chest-protection:
     enable: false
     disable-off-check: false

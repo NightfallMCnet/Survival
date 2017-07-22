@@ -95,20 +95,22 @@ protections:
             enabled: true
         dark_oak_fence_gate:
             enabled: true
-        armor_stand:
+        ARMOR_STAND:
+        #armor_stand:
+            autoRegister: private
             enabled: true
         trapped_chest:
             autoRegister: private
             enabled: true
         enchantment_table:
             enabled: true
-        painting:
+        PAINTING:
             autoRegister: private
             enabled: true
-        item_frame:
+        ITEM_FRAME:
             autoRegister: private
             enabled: true
-        hopper_minecart:
+        MINECART_HOPPER:
             autoRegister: private
             enabled: true
         standing_banner:
@@ -117,7 +119,7 @@ protections:
         wall_banner:
             autoRegister: private
             enabled: true
-        chest_minecart:
+        MINECART_CHEST:
             autoRegister: private
             enabled: true
         white_shulker_box:
